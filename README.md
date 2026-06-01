@@ -4,7 +4,21 @@ SkillGraph is a knowledge graph-based career recommendation system that helps us
 
 Built using **Neo4j**, **ESCO skill taxonomy**, and **Streamlit**, the system combines graph reasoning with importance-weighted scoring to provide explainable career guidance.
 
----
+
+## Motivation
+
+Many professionals know where they want to go but struggle to understand what skills they need to get there.
+
+Existing career guidance systems face several challenges:
+
+- No structured self-assessment workflow
+- Limited skill prioritization
+- Generic course recommendations
+- Certifications disconnected from actual skill gaps
+- Occupational taxonomies that are often too broad for modern technology roles
+
+SkillGraph was built to bridge this gap through a knowledge graph-driven career intelligence platform that combines occupational data, market demand signals, and learning resources into a unified recommendation system.
+
 
 ## Project Overview
 
@@ -28,6 +42,27 @@ The platform allows users to:
 5. Receive personalized course and certification recommendations
 
 ---
+
+## Data Sources
+
+SkillGraph combines structured knowledge sources, unstructured learning resources, and real-world market signals.
+
+### Structured Sources
+
+- **ESCO**: European Skills, Competences, Qualifications and Occupations framework
+- **O*NET**: U.S. occupational database providing occupation-to-skill mappings
+
+### Learning Resources
+
+- **Coursera**
+- **Google Cloud Certifications**
+
+### Market Signals
+
+- **LinkedIn Jobs Dataset (Kaggle)**
+
+The combination of these sources enables SkillGraph to generate recommendations that are both semantically grounded and aligned with real-world hiring demand.
+
 
 ## System Architecture
 
@@ -86,14 +121,71 @@ creating explainable recommendations rather than black-box outputs.
 
 ---
 
+## Key Innovations
+
+### Market-Driven Skill Ranking
+
+One limitation of ESCO is that skills are not ranked by importance.
+
+SkillGraph introduces a market-driven ranking methodology:
+
+**Skill Importance = LinkedIn Demand + ESCO Overlap**
+
+This enables the platform to prioritize skills based on real-world hiring demand rather than treating all skills equally.
+
+---
+
+### Semantic Role Curation
+
+Initial keyword-based occupation filtering produced noisy matches such as unrelated engineering and management roles.
+
+To improve relevance, SkillGraph introduces a curated set of modern technology roles including:
+
+- AI Engineer
+- Machine Learning Engineer
+- Data Scientist
+- Data Engineer
+- Cloud Engineer
+- DevOps Engineer
+- Full Stack Developer
+
+This significantly improves recommendation quality.
+
+---
+
+### Importance-Weighted Course Ranking
+
+Course recommendations are ranked according to the importance of the skill gaps they address.
+
+This produces personalized learning pathways instead of generic course lists.
+
+---
+
+### Score-Aware Certification Recommendations
+
+Certification recommendations adapt to candidate readiness.
+
+| Match Score | Certification Tier |
+|------------|-------------------|
+| < 40% | Foundational |
+| 40–69% | Associate |
+| ≥ 70% | Professional |
+
+This prevents early-stage learners from being overwhelmed by advanced certifications while helping experienced candidates validate near-complete readiness.
+
+---
+
 ## Knowledge Graph Design
 
 ### Node Types
 
-| Node | Description |
-|--------|------------|
-| CustomRole | Target career role |
-| EscoSkill | ESCO skill entity |
+| Node Type | Description |
+|------------|------------|
+| CustomRole | User-facing technology role |
+| EscoOccupation | Filtered ESCO occupation |
+| EscoSkill | Core skill entity |
+| SkillCategory | ESCO skill hierarchy |
+| OnetOccupation | O*NET occupation mapping |
 | Course | Learning resource |
 | Certification | Professional certification |
 
@@ -101,9 +193,12 @@ creating explainable recommendations rather than black-box outputs.
 
 | Relationship | Description |
 |-------------|-------------|
-| HAS_SKILL_METRIC | Role requires a skill |
-| TEACHES_SKILL | Course teaches a skill |
+| MAPS_TO | Role mapping |
+| REQUIRES | Occupation-skill relationship |
+| CATEGORY | Skill hierarchy |
+| TEACHES | Course teaches a skill |
 | RELEVANT_FOR | Certification relevant for a role |
+| HAS_SKILL_METRIC | Skill importance and threshold metadata |
 
 ### Example Graph Structure
 
@@ -154,9 +249,13 @@ This provides a more realistic assessment than treating every skill equally.
 
 Users choose the role they want to evaluate themselves against.
 
+![Role Selection](screenshots/step1_role_selection.png)
+
 ### Step 2: Assess Skills
 
 Users rate their proficiency levels for the role's most important skills.
+
+![Skill Assessment](screenshots/step2_skill_entry.png)
 
 ### Step 3: View Match Dashboard
 
@@ -169,10 +268,14 @@ SkillGraph generates:
 - Learning Recommendations
 - Certification Recommendations
 
+![Dashboard](screenshots/step3_dashboard.png)
 
 ## Neo4j Knowledge Graph
 
 The graph stores relationships between roles, skills, courses, and certifications, enabling explainable recommendation generation through graph traversal.
+
+![Knowledge Graph](screenshots/graph_view.png)
+
 
 ## Repository Strcuture
 
@@ -253,6 +356,25 @@ streamlit run src/skillgraph_ui.py
 - Connected role requirements to learning pathways through graph relationships.
 - Generated personalized course and certification recommendations.
 - Created an interactive Streamlit application for career self-assessment.
+
+## Evaluation
+
+Career intelligence systems lack a publicly available ground-truth benchmark.
+
+To evaluate SkillGraph, structured proxy validation was performed using:
+
+- ESCO occupational relationships
+- LinkedIn demand signals
+- Role-specific heuristics
+
+Evaluation focused on:
+
+- Realistic skill recommendations
+- Plausible proficiency thresholds
+- Consistent scoring behavior
+- Explainable recommendation outputs
+
+Results showed that the system generates recommendations that are realistic, interpretable, and aligned with market demand.
 
 
 ## Future Improvements
