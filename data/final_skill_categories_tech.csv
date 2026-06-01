@@ -1,0 +1,23 @@
+category_uri,name,code,level,parent_uri,parent_name
+http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge,K,0,,
+http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills,S,0,,
+http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e,transversal skills and competences,T,0,,
+http://data.europa.eu/esco/isced-f/06,information and communication technologies (icts),06,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/isced-f/07,"engineering, manufacturing and construction",07,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/isced-f/04,"business, administration and law",04,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/skill/9b8bb484-dcba-49af-8ae0-cfe8b6e9ed45,working with machinery and specialised equipment,S8,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/skill/dc06de9f-dd3a-4f28-b58f-b01b5ae72ab8,"communication, collaboration and creativity",S1,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/skill/0a2d70ee-d435-4965-9e96-702b2fb65740,information skills,S2,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/skill/243eb885-07c7-4b77-ab9c-827551d83dc4,working with computers,S5,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/skill/869fc2ce-478f-4420-8766-e1f02cec4fb2,management skills,S4,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/isced-f/09,health and welfare,09,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/isced-f/10,services,10,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/skill/c73521be-c039-4e22-b037-3b01b3f6f9d9,assisting and caring,S3,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/skill/2ae39fc8-0f1b-4284-9e73-3f2739471f63,constructing,S7,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/isced-f/02,arts and humanities,02,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/isced-f/00,generic programmes and qualifications,00,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/skill/b94686e3-cce5-47a2-a8d8-402a0d0ed44e,core skills and competences,T1,1,http://data.europa.eu/esco/skill/04a13491-b58c-4d33-8b59-8fad0d55fe9e,transversal skills and competences
+http://data.europa.eu/esco/isced-f/03,"social sciences, journalism and information",03,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/isced-f/05,"natural sciences, mathematics and statistics",05,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge
+http://data.europa.eu/esco/skill/03e0b95b-67d1-457a-b3f7-06c407cf6bec,handling and moving,S6,1,http://data.europa.eu/esco/skill/335228d2-297d-4e0e-a6ee-bc6a8dc110d9,skills
+http://data.europa.eu/esco/isced-f/01,education,01,1,http://data.europa.eu/esco/skill/c46fcb45-5c14-4ffa-abed-5a43f104bb22,knowledge

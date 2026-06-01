@@ -1,0 +1,79 @@
+soc_code,onet_occ_title,esco_occ_uri,esco_occ_title,match_type
+11-3021.00,Computer and Information Systems Managers,http://data.europa.eu/esco/occupation/7b1b5da8-573a-49bb-a38e-68725a949f4f,chief technology officer,closeMatch
+11-3021.00,Computer and Information Systems Managers,http://data.europa.eu/esco/occupation/82f90e87-de92-4678-adae-61d3e5f7e1e4,chief information officer,closeMatch
+11-3021.00,Computer and Information Systems Managers,http://data.europa.eu/esco/occupation/7754d570-9519-48c2-b1c9-8e165f8bca0f,ICT security manager,broadMatch
+11-3021.00,Computer and Information Systems Managers,http://data.europa.eu/esco/occupation/f0ca39a8-1e30-487c-95f9-ef2d5e734adc,ICT operations manager,closeMatch
+11-3021.00,Computer and Information Systems Managers,http://data.europa.eu/esco/occupation/591c5063-69ce-4551-ba60-e2304111130f,aviation data communications manager,broadMatch
+15-1211.00,Computer Systems Analysts,http://data.europa.eu/esco/occupation/a6a0b60f-08da-4faa-bf54-942987efb471,ICT system analyst,exactMatch
+15-1211.00,Computer Systems Analysts,http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae,ICT system architect,closeMatch
+15-1211.00,Computer Systems Analysts,http://data.europa.eu/esco/occupation/04ba4d6c-957d-417f-bf63-5b9e015a9f86,software analyst,closeMatch
+15-1211.00,Computer Systems Analysts,http://data.europa.eu/esco/occupation/10469d70-78a3-4650-9e29-d04de13c62c1,embedded system designer,closeMatch
+15-1211.00,Computer Systems Analysts,http://data.europa.eu/esco/occupation/bd9d395a-d587-45c6-8d72-ceef226df9e1,ICT system integration consultant,broadMatch
+15-1212.00,Information Security Analysts,http://data.europa.eu/esco/occupation/0ce5a9f4-e00a-4bbe-b255-3c63407167a4,ICT security engineer,exactMatch
+15-1212.00,Information Security Analysts,http://data.europa.eu/esco/occupation/a99b38bc-6e71-4bef-b127-0f2b5e357815,ICT resilience manager,narrowMatch
+15-1212.00,Information Security Analysts,http://data.europa.eu/esco/occupation/1c5a896a-e010-4217-a29a-c44db26e25da,embedded systems security engineer,broadMatch
+15-1212.00,Information Security Analysts,http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7,ICT security administrator,closeMatch
+15-1212.00,Information Security Analysts,http://data.europa.eu/esco/occupation/7754d570-9519-48c2-b1c9-8e165f8bca0f,ICT security manager,closeMatch
+15-1221.00,Computer and Information Research Scientists,http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e,computer scientist,exactMatch
+15-1221.00,Computer and Information Research Scientists,http://data.europa.eu/esco/occupation/6e92d4b5-3167-4166-802f-da7753951a31,ICT research consultant,closeMatch
+15-1231.00,Computer Network Support Specialists,http://data.europa.eu/esco/occupation/81480b40-a318-47f3-9b2c-56b69ed67d95,ICT network administrator,exactMatch
+15-1231.00,Computer Network Support Specialists,http://data.europa.eu/esco/occupation/64c7d461-152c-477f-a8e2-c2c537e9d617,ICT network technician,broadMatch
+15-1231.00,Computer Network Support Specialists,http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d,ICT network engineer,closeMatch
+15-1231.00,Computer Network Support Specialists,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,ICT system administrator,closeMatch
+15-1231.00,Computer Network Support Specialists,http://data.europa.eu/esco/occupation/02eb0ae6-ecdd-4602-9c8e-60ffe6dbe1e2,telecommunications engineer,closeMatch
+15-1241.00,Computer Network Architects,http://data.europa.eu/esco/occupation/e0b544dd-b621-4126-a55e-054af25c6ea0,ICT network architect,broadMatch
+15-1241.00,Computer Network Architects,http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d,ICT network engineer,broadMatch
+15-1241.00,Computer Network Architects,http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae,ICT system architect,closeMatch
+15-1241.00,Computer Network Architects,http://data.europa.eu/esco/occupation/4543bf7b-8ffb-4ade-88b9-58da34366f04,ICT capacity planner,broadMatch
+15-1242.00,Database Administrators,http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc,database administrator,exactMatch
+15-1242.00,Database Administrators,http://data.europa.eu/esco/occupation/b11e1742-5e28-4270-b081-b0193d85ee7d,database developer,broadMatch
+15-1242.00,Database Administrators,http://data.europa.eu/esco/occupation/3d190639-90f8-4402-b1b3-a104a17e0d67,database integrator,broadMatch
+15-1242.00,Database Administrators,http://data.europa.eu/esco/occupation/8d9ec84d-cf2d-4179-87bc-335cda54a427,database designer,broadMatch
+15-1242.00,Database Administrators,http://data.europa.eu/esco/occupation/1562c7a3-c7d9-419d-b9b6-db26610bcf84,data warehouse designer,broadMatch
+15-1243.00,Database Architects,http://data.europa.eu/esco/occupation/8d9ec84d-cf2d-4179-87bc-335cda54a427,database designer,broadMatch
+15-1243.00,Database Architects,http://data.europa.eu/esco/occupation/3d190639-90f8-4402-b1b3-a104a17e0d67,database integrator,broadMatch
+15-1243.00,Database Architects,http://data.europa.eu/esco/occupation/1562c7a3-c7d9-419d-b9b6-db26610bcf84,data warehouse designer,broadMatch
+15-1243.00,Database Architects,http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc,database administrator,broadMatch
+15-1244.00,Network and Computer Systems Administrators,http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d,ICT network engineer,closeMatch
+15-1244.00,Network and Computer Systems Administrators,http://data.europa.eu/esco/occupation/81480b40-a318-47f3-9b2c-56b69ed67d95,ICT network administrator,broadMatch
+15-1244.00,Network and Computer Systems Administrators,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,ICT system administrator,broadMatch
+15-1251.00,Computer Programmers,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,software developer,closeMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/bd272aee-adc9-4a06-a15c-a73b4b4a46a7,ICT application developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,software developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/a7c1d23d-aeca-4bee-9a08-5993ed98b135,ICT system developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/d0aa0792-4345-474b-9365-686cf4869d2e,software architect,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/04ba4d6c-957d-417f-bf63-5b9e015a9f86,software analyst,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/bb6198c4-1d3e-40b9-9cc4-ad2dd9d7c74b,industrial mobile devices software developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/b11e1742-5e28-4270-b081-b0193d85ee7d,database developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/2ed56c3f-61d6-4f7e-9ef8-8849eb102e4c,mobile application developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/866c7813-2c03-47d7-9bdc-192cfbace57c,user interface developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/57af9090-55b4-4911-b2d0-86db01c00b02,embedded systems software developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81,digital games developer,broadMatch
+15-1252.00,Software Developers,http://data.europa.eu/esco/occupation/18552245-3c36-4a52-b4c6-295cabb5c93b,gambling games developer,broadMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/106f79e4-6264-45f1-9e7a-297435cd684b,software tester,exactMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/731f38f1-b08f-4dd5-a25e-f8627c038273,ICT integration tester,broadMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/52d5edc9-7902-4cd3-8b06-6bd77c98d440,ICT system tester,broadMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/50af07f0-7a75-424e-a66d-5a9deea10f4c,ICT accessibility tester,broadMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/5f50290d-f520-4a69-85c7-1390d2a4a8b6,ICT usability tester,broadMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/33e4f026-a823-4ffc-99e4-60d3fe597a1e,digital games tester,broadMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/0ab5c12c-c1c1-4772-8345-aa287d0e391d,ICT test analyst,closeMatch
+15-1253.00,Software Quality Assurance Analysts and Testers,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,software developer,closeMatch
+15-1254.00,Web Developers,http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d,web developer,exactMatch
+15-1254.00,Web Developers,http://data.europa.eu/esco/occupation/dc8ef7da-d2c0-4474-96a0-6d0385eeec1e,webmaster,closeMatch
+15-1299.05,Information Security Engineers,http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7,ICT security administrator,closeMatch
+15-1299.05,Information Security Engineers,http://data.europa.eu/esco/occupation/7754d570-9519-48c2-b1c9-8e165f8bca0f,ICT security manager,closeMatch
+15-1299.05,Information Security Engineers,http://data.europa.eu/esco/occupation/a44a1dc5-be08-4840-8bd5-770c4ac1ca6d,ICT security technician,closeMatch
+15-1299.05,Information Security Engineers,http://data.europa.eu/esco/occupation/0ce5a9f4-e00a-4bbe-b255-3c63407167a4,ICT security engineer,closeMatch
+15-1299.05,Information Security Engineers,http://data.europa.eu/esco/occupation/1c5a896a-e010-4217-a29a-c44db26e25da,embedded systems security engineer,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae,ICT system architect,exactMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/d0aa0792-4345-474b-9365-686cf4869d2e,software architect,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/07e60525-1aad-4099-aaf3-2c7014c92212,integration engineer,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e,cloud engineer,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d,ICT network engineer,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/78faf623-2543-43a5-acb2-3c43a22d36e4,blockchain architect,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/2bef94db-0088-4507-982a-2ca717529adb,enterprise architect,broadMatch
+15-1299.08,Computer Systems Engineers/Architects,http://data.europa.eu/esco/occupation/3b1ea27c-781c-41eb-821f-214285260dd2,ICT change and configuration manager,broadMatch
+15-1299.09,Information Technology Project Managers,http://data.europa.eu/esco/occupation/8b6388a4-4904-471b-9331-d3b1211f5525,ICT project manager,exactMatch
+15-1299.09,Information Technology Project Managers,http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5,project manager,narrowMatch
+15-1299.09,Information Technology Project Managers,http://data.europa.eu/esco/occupation/c94f3565-d987-431f-a46b-6f4e018e0bd7,programme manager,narrowMatch
+15-1299.09,Information Technology Project Managers,http://data.europa.eu/esco/occupation/b1c80369-067e-4041-84c8-dbe65640a5d8,ICT consultant,broadMatch

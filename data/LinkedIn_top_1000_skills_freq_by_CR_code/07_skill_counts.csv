@@ -1,0 +1,1003 @@
+Skill,Count
+Python,145
+Kubernetes,107
+AWS,92
+Terraform,80
+Java,77
+Site Reliability Engineering,75
+Docker,75
+Linux,70
+DevOps,67
+Ansible,67
+Automation,61
+Go,56
+Jenkins,48
+Prometheus,43
+Communication,42
+SQL,41
+CI/CD,41
+Grafana,40
+Bash,37
+Troubleshooting,37
+Monitoring,36
+Azure,34
+Ruby,30
+Git,29
+Cloud Computing,28
+Puppet,28
+Windows,26
+Observability,26
+GCP,25
+Software Engineering,25
+GitHub,25
+Networking,25
+JavaScript,25
+Dynatrace,24
+Leadership,24
+PHP,24
+Collaboration,23
+Computer Science,23
+Splunk,23
+Chef,22
+Agile,21
+MySQL,21
+Redis,20
+Microservices,20
+Problemsolving,19
+Security,19
+C#,19
+DNS,19
+Problem Solving,18
+CloudWatch,18
+SRE,18
+PowerShell,18
+CloudFormation,18
+Datadog,18
+Scalability,17
+Reliability,17
+TypeScript,17
+Distributed Systems,17
+Teamwork,16
+Infrastructure as Code,16
+Perl,16
+Infrastructure,16
+Alerting,16
+New Relic,16
+GitLab,15
+Oracle,15
+Javascript,15
+GitOps,15
+Kafka,14
+Communication skills,14
+NoSQL,14
+Mentoring,14
+Scripting,14
+Software Development,14
+Incident management,14
+Golang,14
+Virtualization,13
+Shell,13
+Incident Response,12
+Continuous Integration,12
+Maven,12
+Helm,12
+ProblemSolving,12
+Azure Monitor,12
+Containers,12
+S3,12
+IAM,12
+Spark,11
+Site Reliability Engineer,11
+Architecture,11
+TCP/IP,11
+EC2,11
+Continuous Improvement,10
+C++,10
+Operations,10
+Problem solving,10
+Performance,10
+Site Reliability Engineering (SRE),10
+Availability,10
+HTML/CSS,10
+Jira,10
+Shell Scripting,10
+DHCP,10
+ElastiCache,10
+Distributed systems,10
+Postgres,9
+Documentation,9
+Shell scripting,9
+Communication Skills,9
+Configuration Management,9
+GIT,9
+Angular,9
+Containerization,9
+Coding,9
+Hadoop,9
+Cloud,9
+Active Directory,9
+Firewalls,8
+Databases,8
+Unix,8
+Engineering,8
+Tomcat,8
+Node.js,8
+Debugging,8
+MongoDB,8
+Unix/Linux,8
+Software development,8
+Confluence,8
+Algorithms,8
+Log Analytics,8
+RabbitMQ,8
+NodeJS,8
+OpenStack,8
+Continuous Delivery,8
+Development,7
+RDBMS,7
+ECS,7
+Programming Languages,7
+System Administration,7
+.Net,7
+Application Insights,7
+NewRelic,7
+Metrics,7
+Root cause analysis,7
+Bachelor's Degree,7
+Microsoft Azure,7
+Incident Management,7
+FinOps,7
+Kerberos,7
+Innovation,7
+Capacity Planning,7
+SDLC,7
+HTML5,7
+GitHub Actions,7
+Container Orchestration,7
+CircleCI,7
+Windows Authentication,7
+People Management,7
+Interpersonal skills,6
+HTTP,6
+Spring,6
+Cloud computing,6
+Cloud Formation,6
+Performance Optimization,6
+Nagios,6
+Systems engineering,6
+AppDynamics,6
+Agile Development,6
+Testing,6
+Loki,6
+APM,6
+Training,6
+OpenShift,6
+Azure Functions,6
+OpsGenie,6
+Problem management,6
+Packer,6
+Google Cloud,6
+Adaptability,6
+Rust,6
+Google Cloud Platform,6
+Systems Engineering,6
+High Availability,6
+DataDog,6
+Capacity planning,6
+Processes,6
+BSH,6
+OAuth,6
+OpenID,6
+SOLR,6
+ElastiSearch,6
+Apache,6
+Selenium,6
+Ruby/Cucumber,6
+CSS,6
+ELB,6
+Software engineering,6
+Services,6
+Cloud Architecture,6
+RDS,6
+Logging,6
+Data analysis,5
+Change Management,5
+Cloud Platforms,5
+Analytical Skills,5
+Continuous integration,5
+ITIL,5
+Root Cause Analysis,5
+Artifactory,5
+SVN,5
+Machine Learning,5
+Scrum,5
+Initiative,5
+ServiceNow,5
+Performance Tuning,5
+Service Level Objectives,5
+Latency,5
+System health,5
+Incident response,5
+System Design,5
+SQL Server,5
+Public Cloud,5
+Okta,5
+Windows VMs,5
+JDBC,5
+F5,5
+Switches,5
+Routers,5
+NICs,5
+SAML,5
+JWT,5
+WSFederation,5
+OKTA,5
+Couchbase,5
+NeuStar,5
+Gomez,5
+Angular.js,5
+Kinesis,5
+Scaling Groups,5
+ANT,5
+Quartz,5
+SpringBoot,5
+Infrastructure build and configuration automation technologies (Terraform Ansible Puppet CodeDeploy Chef),5
+Network engineering,5
+Troubleshooting concurrent and distributed system interactions,5
+Site and infrastructure monitoring systems (CloudWatch Datadog New Relic Sumologic Thousand Eyes),5
+SNS,5
+Lambda,5
+Memcache,5
+Tooling,5
+Project Management,5
+Analytical skills,5
+React,5
+Flink,5
+Verbal Communication,4
+Written Communication,4
+CI/CD Pipelines,4
+Disaster recovery,4
+Critical thinking,4
+PaaS,4
+Infrastructure as Code (IaC),4
+Data Engineering,4
+Data Analysis,4
+Red Hat OpenShift,4
+Cloud Platform,4
+ArgoCD,4
+Amazon Web Services,4
+IaC,4
+System Engineering,4
+UNIX,4
+Node JS,4
+Docker compose,4
+Diversity,4
+Azure DevOps,4
+Azure Cloud Experience,4
+Azure App Services,4
+Azure Logic Apps,4
+Azure SQL,4
+Azure Storage,4
+Azure Redis,4
+VNets,4
+Azure App Gateway,4
+Retrospective analysis,4
+Bicep,4
+Microsoft Teams,4
+Research,4
+Scripting Languages,4
+Complexity Analysis,4
+C,4
+ElasticSearch,4
+Salt,4
+Scala,4
+FedRAMP,4
+Compliance,4
+Continuous Deployment,4
+Performance tuning,4
+TCP/IP routing,4
+DDOS prevention,4
+Design patterns,4
+CVS,4
+Capistrano,4
+AWS services,4
+Container/containerfleetorchestration technologies (Docker Kubernetes AWS ECS),4
+Lean/Agile deployment processes (ZDT: Blue/Green Canary DNS strategies),4
+Cloud database operations and deployment experience (RDS MySQL/Postgres/Aurora),4
+Caching operations & deployments (Memcache Redis),4
+Sumologic,4
+ELK,4
+JIRA,4
+Programming languages,4
+Subnets,4
+Load balancing,4
+Monitoring tools,4
+Automation tools,4
+GitLab CI/CD,4
+SCM,4
+Elasticsearch,4
+Infrastructure Design,4
+Full Stack Development,4
+Network Protocols,4
+Prioritization,3
+Cassandra,3
+Data Visualization,3
+Continuous delivery,3
+Infrastructure as code,3
+Hybrid Cloud,3
+Data Management,3
+Continuous deployment,3
+Zookeeper,3
+Java/J2EE,3
+Rancher,3
+Openshift,3
+Deployment,3
+Vault,3
+Ownership,3
+Site reliability engineering,3
+AzureDevOps,3
+Docker file,3
+Performance Engineering,3
+Production operations,3
+Site reliability engineer,3
+Software engineer,3
+DevOps engineer,3
+Infrastructure engineer,3
+Identity and access management,3
+Email,3
+Calendar,3
+Dashboards,3
+.net,3
+.net core,3
+MVC,3
+Observability platforms,3
+Guidance,3
+Build Automation,3
+AKS/EKS/PKS/GKE Instances,3
+Reliability Engineering,3
+Continuous improvement,3
+Scripting (Shell Python),3
+Containerized platforms (Kubernetes),3
+Cloud Security,3
+Open Source Frameworks,3
+Team Management,3
+Critical Thinking,3
+Data Structures,3
+Software Design,3
+Kibana,3
+Ansible Tower,3
+LDAP,3
+Production Engineering,3
+Network protocols,3
+Google,3
+Azure AD Connect,3
+Azure AD,3
+PingIdentity,3
+SSO,3
+Organizational skills,3
+System Monitoring,3
+Bamboo,3
+Argo CD,3
+Agile methodology,3
+Scalable solutions,3
+Connection pooling,3
+Object Oriented Analysis & Design (OOAD),3
+Application architectures,3
+System testing strategies,3
+Continuous Integration and Deployment,3
+Sonar,3
+Vulnerability scans,3
+Port scans,3
+Wireshark,3
+Nessus,3
+Whitehat,3
+Cloud technologies,3
+EKS,3
+AWS services (IAM EC2 S3 EBS/EFS ELB/ALB AutoScaling RDS VPC Subnets Elastic IP Route53 CloudWatch CloudFront Lambda CloudFormation ECS SNS ElastiCache),3
+Presentation and communication skills,3
+SDLC branching SCM and code deployment systems (Git/Gitflow Jenkins CircleCI),3
+Sumo Logic,3
+Project management,3
+Cloud security,3
+Uptime,3
+Advocacy,3
+Agile methodologies,3
+Computer Engineering,3
+Cloud Services,3
+Software Architecture,3
+GitFlow,3
+Vagrant,3
+etcd,3
+Consul,3
+RHEL,3
+CentOS,3
+RDS MySQL,3
+JSON,3
+YAML,3
+Automation Framework,3
+SAFe,3
+Travel,3
+Autonomy,3
+UNIX/Linux,3
+Information Technology,3
+NonFunctional Requirements (NFRs),3
+Linux administration,3
+Ingress,3
+Build automation,3
+SCRUM,3
+Kanban,3
+Unit testing,3
+Integration testing,3
+Terragrunt,3
+Attention to Detail,3
+Quality Assurance,3
+LargeScale System Design,3
+Nginx,3
+RCA,3
+EBS/EFS,3
+ELB/ALB,3
+AutoScaling,3
+VPC,3
+Elastic IP,3
+Route53,3
+CloudFront,3
+CodeDeploy,3
+Thousand Eyes,3
+Git/Gitflow,3
+System Reliability,3
+Design,3
+Linux Administration,3
+Tracing,3
+Infrastructure Management,3
+CI/CD pipeline,3
+Cloud Infrastructure,3
+Web Protocols,3
+Information Security,3
+Agile Practices,3
+Open Source RDBMS,3
+Distributed Microservices,3
+Data management,2
+Finance,2
+Time management,2
+Attention to detail,2
+Enterprise Applications,2
+OpenSearch,2
+Cadence,2
+Data visualization,2
+Open source,2
+Cloud platforms (AWS GCP Azure),2
+Data Science,2
+Process Improvement,2
+Programming,2
+J2EE,2
+Load balancers,2
+IT Service Management,2
+Istio,2
+Monitoring and alerting,2
+Test,2
+Linux/Unix scripting,2
+VMware,2
+Cisco,2
+Bachelor's degree,2
+Analysis,2
+Continuous Integration/Continuous Delivery (CI/CD),2
+System Architecture,2
+SaaS,2
+IaaS,2
+Nexus,2
+Observability Tools,2
+Zabbix,2
+GoLang,2
+Capacity Management,2
+Technical Documentation,2
+Virtual machines,2
+SELinux,2
+Apigee,2
+Red Hat Linux,2
+VMWare,2
+Artificial Intelligence,2
+Build,2
+IT,2
+Product Management,2
+MIS,2
+CIS,2
+Network and Server Administration,2
+Subversion,2
+Server Hardware,2
+Network Communications,2
+C/C++,2
+A+,2
+Server+,2
+Security+,2
+Linux+,2
+Network+,2
+CISSP,2
+CCNA/CCNP,2
+MCSA/MCSE,2
+Paid Time Off,2
+Pulumi,2
+NestJs,2
+Jest,2
+Cypress,2
+nock,2
+JUnit,2
+Spock,2
+Mockito,2
+Motivation,2
+Requirements Analysis,2
+Agile development,2
+REST APIs,2
+Technical writing,2
+Opensource technologies,2
+Systems Administration,2
+Cyber Security,2
+Bitbucket,2
+Security Clearance,2
+Analytical Thinking,2
+Bachelor's in Computer Science,2
+Reliability concepts,2
+RCA (Root Cause Analysis),2
+Dental industry knowledge,2
+Azure certifications,2
+Strategy,2
+MTTA (Mean Time to Acknowledge),2
+MTTR (Mean Time to Resolve),2
+Oncall rotations,2
+Cost optimization,2
+Integrity,2
+Values,2
+Accountability,2
+SAP,2
+System reliability,2
+Configuration management,2
+Azure Kubernetes Service,2
+OpenTelemetry,2
+Azure Key Vault,2
+CICD knowledge (Jenkins Docker Maven),2
+GITHUB as SCM,2
+Detective and ProblemSolving Skills,2
+Analytical and Proactive mindset,2
+Strong and Assertive Communication,2
+Good Leadership skills,2
+Passion for Continuous Improvement,2
+Encryption,2
+Coaching,2
+Scripting languages,2
+Top Secret clearance,2
+ITAR compliance,2
+bash,2
+Gitlab,2
+MSSQL,2
+SelfMotivation,2
+Linux system administration,2
+HTTP(S),2
+SMTP,2
+TLS/SSL,2
+Docker containers,2
+Monitoring systems,2
+Oncall support,2
+Problem Management,2
+Multidatacenter environment,2
+GraphQL,2
+SolarWinds,2
+Circle CI,2
+Cloud platforms,2
+Life insurance,2
+Paid holidays,2
+Employee Stock Purchase Plan,2
+System design,2
+Distributed system diagnostic methods,2
+Relational database technologies,2
+APM toolsets,2
+ntier application architecture,2
+Deployment infrastructure,2
+Network topology,2
+Authentication and authorization standards,2
+Integration,2
+Middleware caching strategies,2
+Object data stores,2
+Basic search infrastructure,2
+Web application middleware,2
+Build lifecycle and release management,2
+Modern Javascript libraries and frameworks,2
+Storage options,2
+Application and infrastructure security,2
+Linux systems,2
+Dockerfile,2
+AKS,2
+Linux administration/build/management skills,2
+Continuous deployment software development lifecycles in the Cloud (CI/CD),2
+Problem solving root cause analysis and systems engineering skills,2
+Atlassian,2
+VPCs,2
+High availability,2
+Consultation,2
+Change management,2
+Scripting (Terraform/Ansible),2
+Storage,2
+AWS services (IAM EC2 S3 EBS/EFS ELB/ALB AutoScaling RDS replication techniques VPC Subnets Elastic IP Route53 CloudWatch CloudFront Lambda CloudFormation ECS SNS ElastiCache),2
+Resilience,2
+DynamoDB,2
+ISO27001,2
+SRE culture,2
+Architectural standards,2
+Security standards,2
+Risk assessment,2
+Internal engineering,2
+External teams,2
+Applications,2
+Presentation skills,2
+Team leadership,2
+System engineering,2
+Powershell,2
+Multicloud,2
+Data Analytics,2
+Profiling,2
+OCI,2
+SQS,2
+SES,2
+AWS CodeDeploy,2
+Amazon Linux,2
+RDS PostgreSQL,2
+Amazon Aurora,2
+Markdown,2
+reStructuredText,2
+HCL,2
+TOML,2
+Mercurial,2
+GitHubFlow,2
+Platform Features,2
+Faulttolerant Distributed Systems,2
+Shells,2
+Analytical Abilities,2
+Afterhours Support,2
+PLSQL,2
+Failure Mode Analysis,2
+AutoSys,2
+Senior Site Reliability Engineer,2
+Cloud Migration,2
+Data Warehousing,2
+Tableau,2
+OBIEE,2
+PowerBI,2
+SAS,2
+Tableau Servers,2
+Site Reliability,2
+Datastores,2
+Full Stack Software Engineering,2
+AWS tools and services,2
+KPIs,2
+Data structures,2
+Complexity analysis,2
+System design consulting,2
+Infrastructure Engineering,2
+Relational databases,2
+Service Lifecycle Management,2
+SignalFx,2
+Infrastructure as Code (IAC),2
+Technical Leadership,2
+Hive,2
+Multitasking,2
+Cloud IaaS,2
+RESTful API,2
+Oncall,2
+SSL/TLS,2
+AWS Tools and Services,2
+Operating systems,2
+Platform Engineering,2
+SRE principles,2
+PostgreSQL,2
+Version control,2
+AWS Certified DevOps Engineer,2
+Google Anthos/Google Kubernetes Engine (GKE),2
+Load Balancing (F5),2
+GIT/Bitbucket,2
+Selfhealing systems,2
+Performance analysis,2
+Infrastructure automation,2
+Service Oriented Architecture (SOA),2
+Harness,2
+SAAS,2
+GITHUB,2
+User Experience,2
+SRE practices,2
+SLOs,2
+Inclusion,2
+Cilium,2
+InfluxDB,2
+OOAD,2
+Optimization,2
+Postmortems,2
+ELK Stack,2
+Systems Monitoring,2
+FreeBSD,2
+Haproxy,2
+Iptables,2
+Senior Site Reliability Engineering,2
+Private Cloud,2
+Interpersonal Skills,2
+Cloud Environments,2
+Virtual Machines,2
+Orchestration,2
+Linux Operating Systems,2
+Technical Writing,2
+Blue/Green,2
+Canary,2
+Service Level Indicators (SLIs),2
+Oncall Rotation,2
+Remediation,2
+Big data,2
+Cloud Engineering,2
+FaultTolerant Systems,2
+Scalable Software Systems,2
+Bachelor's Degree in Computer Science,2
+ServiceLevel Objectives,2
+SRE philosophy,2
+Sentry,2
+TeamCity,2
+Octopus,2
+Networking concepts,2
+Chaos Engineering,2
+Kubernetes resource specializations,2
+5+ years of experience in SRE,2
+Relational Databases,2
+PagerDuty,2
+Linux/Unix,2
+Database,2
+Software design,2
+Continuousdeployment software development lifecycles in the Cloud (e.g. CI/CD),2
+SDLC branching,2
+Code deployment systems (Git/Gitflow Jenkins CircleCI etc.),2
+Wavefront,2
+Open Telemetry,2
+Infrastructureascode,2
+Serverless,2
+RDS MySQL/Postgres/Aurora,2
+Cloud Providers,2
+Software Development Lifecycle (SDLC),2
+System Optimization,2
+Platform as a Service (PaaS),2
+Hypervisor (VMWare ESX),2
+Routing (VMWare NSXT),2
+CI/CD Pipeline implementation,2
+System Metrics,2
+Information Systems,2
+Cloud infrastructure,2
+Network Programming,2
+Observability Platforms,2
+Full Stack Systems,2
+NoSQL Databases,2
+job_skills,1
+Data loading,1
+File queue management,1
+Customer and issuer incident resolution,1
+Data privacy standards,1
+Data quality,1
+Data reliability,1
+Data integrity,1
+Billing opportunities,1
+Financial services,1
+Banking,1
+Telecommunications,1
+Software tools,1
+MS SQL,1
+ITIL practices,1
+Relationship building,1
+Public Key Infrastructure,1
+SFTP,1
+ETL processes,1
+Cloud/SaaS environments,1
+Microsoft certifications,1
+Integration Flows,1
+Platforms,1
+APIs,1
+Protocols,1
+Data Formats,1
+Code Review,1
+Technical Standards,1
+Business Systems Analysts,1
+Data,1
+Business Processes,1
+Linux (Debian),1
+Data science,1
+BI tools (Apache Superset Pandas Python MS Excel/Google Sheets),1
+Customer service experience,1
+Unix system administration,1
+Basic programming skills,1
+Bash scripting,1
+Command line,1
+Apache Superset,1
+Pandas,1
+MS Excel,1
+Google Sheets,1
+Apache Cassandra,1
+Ticketing Systems,1
+Technical Operations,1
+Open Source Projects,1
+Customer Service,1
+Unix System Administration,1
+Database Management,1
+Command Line,1
+Big Data,1
+Springboot,1
+PCF,1
+Cloud/VM,1
+API/Event gateway pattern,1
+SOAP/REST webservices,1
+OAuth 2.0 framework,1
+Identity management,1
+Clientserver communications,1
+JSON web tokens,1
+Payments,1
+Microservice architecture,1
+Helm charts,1
+EFK Stack,1
+Apache Kafka clusters,1
+Redis caches,1
+Monitoring and Alerting,1
+Manage environments,1
+Automation for scaling,1
+Failure recovery,1
+Nondisruptive upgrades,1
+Rollbacks,1
+Staging,1
+Production,1
+Strong Linux administration experience,1
+Strong troubleshooting abilities,1
+A desire to learn new technologies,1
+Solve hard problems,1
+Troubleshooting long running UNIX/Linux processes,1
+Hadoop/Spark,1
+Stored Procedures,1
+Java/Spring boot,1
+AWS  CI/CD,1
+Issue Triaging,1
+Feature Deployment,1
+Software Development Tool Chain Maintenance,1
+Cloud provider Infrastructure service offerings,1
+Computer science,1
+VCE (vBlock),1
+EMC,1
+NetApp,1
+Microsoft,1
+Red Hat,1
+Softwaredefined networking,1
+Technical skills,1
+15+ years of professional experience,1
+10+ years of experience providing infrastructure engineering services,1
+Architecture services,1
+Large scale enterprises,1
+Servicebased delivery models,1
+7x24x365 operations,1
+Data gathering,1
+Open Source,1
+System Thinking,1
+Strong Hybrid Cloud Experience,1
+Performance and Observability Tools,1
+DynaTrace,1
+CloudTrail,1
+DevOps Methodologies,1
+Rally,1
+SonarQube,1
+Data Integration,1
+Data Masking,1
+Data Lifecycle Management,1
+Strong Communication,1
+Negotiation,1
+Diverse Team Cross Business Units,1
+Deep Data Engineering Expertise,1
+* Site Reliability Engineering (SRE),1
+* Enterprise Applications,1
+* Agile Development Methodologies,1
+* Cloud Computing,1
+* Python,1
+* Java,1
+* AWS Infrastructure,1
+* SLOs,1
+* Financial Services Operations,1
+* CrossFunctional Collaboration,1
+* ProblemSolving Skills,1
+* Analytical Skills,1
+* Communication Skills,1
+* Incident Management Procedures,1
+* Serverless Technology,1
+* Modern FrontEnd Frameworks,1
+* MultiTenant Architectures,1
+* Software Development Life Cycle (SDLC),1
+* Empathy,1
+* Teamwork,1
+* Leadership,1
+* Mentoring,1
+* Transparency,1
+* DataDriven Decision Making,1
+* Innovation,1
+* Funloving Attitude,1
+* Compensation and Benefits,1
+* Stock Plan,1
+* Unlimited Vacation,1
+* Educational and Wellness Reimbursements,1
+* Employee Insurance Plans,1
+Cloud Systems,1
+SRE Concepts,1
+Network Diagrams,1
+Runbooks,1
+Procedures,1
+Enterprise Production Environment,1
+MissionCritical Applications,1
+RealTime Applications,1
+HighTraffic Applications,1
+Kubernetes resources,1
+Department of Energy clearance,1
+Workplace Substance Abuse program (WSAP) testing,1
+Drug test,1
+Random drug testing program,1
+Reporting of any drugrelated arrest or conviction or receipt of a positive drug test result,1
+Supercomputer,1
+HPC,1
+JavaCore,1
+Java 5.0,1
+Microservice,1
+uDeploy,1
+Router,1
+Message processor,1
+Management Server,1
+Qpidd,1
+OpenLdap,1
+APM Tools,1
+Wily,1
+Source Code Control,1
+Virtualisation,1
+STEM Degree,1
+Hybrid Remote Working,1
+DevOps/SRE,1
+High proficiency in computer programming,1
+High proficiency with Linux,1
+High proficiency with developing and orchestrating containerized environments,1
+High proficiency in Infrastructure management tools,1
+Ability to grasp new technologies quickly,1
+Ability to prioritize and multitask on multiple responsibilities,1
+Proficiency with Google Cloud Platform operations,1
+Proficiency in understanding complex python code bases,1
+Proficiency in developing and orchestrating containerized environments (Kubernetes and Docker),1
+Proficiency with Prometheus and other cloud native monitoring solutions,1
+Proficiency with CI/CD,1
+Effective communication and interpersonal skills,1
+Ability to work in a fastpaced environment,1
+Ability to work independently and as part of a team,1
+AWS Cloud Formation,1
+Security as Code (SaC),1
+NIST Controls,1
+DFARS,1
+Platform One Big Bang deployments,1
+Harbor,1
+ATOs,1
+DoD 8570 Certifications,1
+DoD Secret Security Clearance,1
+Automation Engineering,1
+Sensors,1
+Communications,1
+Cyber,1
+Security Clearances,1
+System Requirements,1
+Technology Solutions,1
+Production Datacenters,1
+CrossTeam Projects,1
+Learning Agility,1
+Medical Insurance,1
+Dental Insurance,1
+Vision Insurance,1
+Life Insurance,1
+HSA Contributions,1
+401(k) Match,1
+Training Programs,1
+Facility Amenities,1
+Onsite Dining,1
+Onsite Medical Center,1
+Fitness Center,1
+Sports and Social Leagues,1
+Volunteering Initiatives,1
+NonSmoking Environment,1
+Source control,1
+Pull requests,1
+
+total_count,6708,total_skills,2497

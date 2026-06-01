@@ -1,0 +1,1003 @@
+Skill,Count
+Python,1234
+SQL,1081
+Spark,673
+AWS,664
+Java,661
+Snowflake,615
+Scala,598
+Data Engineering,568
+Hadoop,538
+Kafka,507
+Redshift,382
+NoSQL,378
+Hive,372
+ETL,364
+Agile,356
+MySQL,337
+Data Warehousing,326
+EMR,293
+Cassandra,288
+Azure,252
+UNIX/Linux,250
+Machine Learning,249
+MapReduce,248
+Gurobi,248
+Airflow,245
+Data Modeling,240
+Cloud Computing,238
+Communication,228
+Data warehousing,215
+Tableau,212
+Cloud computing,207
+Microsoft Azure,204
+Data Pipelines,197
+Data Analytics,196
+Mongo,188
+Google Cloud,187
+Data engineering,181
+Machine learning,175
+Linux,174
+Data Science,164
+Computer Science,164
+Data modeling,161
+Databricks,156
+Kubernetes,155
+DevOps,154
+Data Analysis,150
+Docker,148
+Big Data,148
+PySpark,147
+MongoDB,141
+Troubleshooting,139
+Data Visualization,138
+Business Intelligence,136
+Data Integration,136
+Agile engineering practices,135
+Data Governance,134
+S3,131
+Collaboration,129
+Data Quality,126
+Teamwork,125
+Open Source RDBMS,125
+RDBMS,124
+Apache Spark,120
+JIRA,118
+CI/CD,114
+Data pipelines,113
+Communication Skills,113
+GCP,109
+Shell scripting,108
+SQL Server,107
+Problem Solving,107
+Power BI,106
+Leadership,97
+Git,96
+Data Architecture,95
+Data Management,95
+Data governance,94
+Oracle,93
+Data Security,93
+Data analysis,93
+Postgres,91
+Azure Data Factory,90
+Microservices,90
+Software Development,90
+Software Engineering,90
+Bachelor's Degree,90
+CISSP,89
+CISM,88
+CCSP,88
+Security+,88
+Data visualization,87
+CISA,86
+Realtime data,86
+GIAC,85
+SSIS,84
+NoSQL databases,83
+AWS Cloud Practitioner,82
+R,82
+Automation,82
+Databases,81
+Big data technologies,81
+Streaming applications,80
+TSQL,80
+Project Management,80
+Communication skills,79
+Jenkins,79
+Data architecture,79
+Cybersecurity,77
+Unit Testing,77
+Analytical Skills,77
+Jira,76
+AWS Solution Architect  Professional,74
+AWS Solution Architect  Associate,73
+C#,73
+Distributed microservices,73
+Scripting,72
+AWS Developer  Associate,72
+AWS Security  Specialty,72
+Terraform,72
+Engineering,72
+Data Transformation,71
+Scrum,70
+Virtualization,69
+Bash,69
+Data science,68
+Shell Scripting,68
+PowerBI,67
+Agile Development,67
+DBT,67
+Unit testing,67
+Data Loss Prevention (DLP),66
+Data quality,66
+Lambda,65
+Continuous Integration,64
+Problemsolving,64
+Mentoring,63
+Data Warehouse,63
+Reporting,62
+Analytics,62
+Documentation,61
+Distributed data/computing tools,60
+Analytical skills,60
+Testing,60
+Data Mining,60
+PostgreSQL,60
+TDD,59
+Data security,59
+Agile development,59
+Artificial Intelligence,59
+UNIX,59
+Statistics,58
+SaaS,57
+ProblemSolving,55
+Data analytics,54
+Scalability,54
+Attention to Detail,53
+Data Lake,53
+Storm,53
+IaaS,52
+Agile Engineering Practices,52
+Azure DevOps,51
+Full stack systems,50
+Glue,50
+Informatica,50
+Software engineering,50
+Helm,49
+Angular JS,49
+Relational Databases,48
+AWS Glue,48
+Data processing,47
+Golang,47
+Big Data Technologies,47
+Data integration,47
+Deployment,46
+Data Warehouses,46
+Azure Databricks,46
+Symantec Data Loss Prevention (DLP),45
+Data Protection,44
+Big data,44
+SparkStreaming,44
+Data Migration,44
+PL/SQL,44
+APIs,43
+Confluence,43
+Information Systems,43
+Data APIs,43
+Data Structures,43
+C++,42
+Data management,42
+Networks,42
+Network DLP,41
+Networking,41
+Data Profiling,41
+Data Processing,41
+Streaming Applications,41
+Business intelligence,40
+Software development,40
+Data mining,40
+Data protection,39
+Technical writing,39
+Kinesis,39
+Looker,39
+NoSQL implementation,39
+Data Ingestion,38
+Pair Programming,38
+Project management,38
+BigQuery,38
+GitHub,38
+Unix/Linux,37
+Stored Procedures,37
+Information Technology,37
+Apache Airflow,37
+Database Design,37
+NoSQL Databases,37
+Synapse,36
+Data Storage,36
+Schema Design,36
+Python3,36
+Google Cloud Platform,35
+Proxy,35
+Data Classification,35
+Security,35
+Pandas,35
+Data transformation,35
+DynamoDB,35
+Development,34
+Automated Testing,34
+Data Retention,34
+Performance Tuning,34
+Relational databases,34
+Adaptability,34
+EC2,34
+Distributed Microservices,34
+SSRS,33
+Windows,33
+URL filtering,33
+Multitasking,33
+Dimensional Data Modeling,33
+Database design,33
+Data Extraction,33
+Innovation,33
+Problemsolving skills,33
+JVM,33
+Data Lakes,32
+Design,32
+Flink,32
+Technical Writing,32
+JavaScript,32
+HBase,32
+Athena,32
+Programming,32
+Cloud,32
+Data Modelling,31
+Master's Degree,31
+Web proxy,30
+Azure Synapse,30
+Distributed Systems,30
+Cloud based data warehousing services,30
+Interpersonal Skills,29
+Azure Data Lake,29
+Performance tuning,29
+Pig,29
+Algorithms,29
+HDFS,29
+Data Integrity,29
+Azure SQL,28
+Data Cleansing,28
+Apache Kafka,28
+Talend,28
+JSON,28
+Web Proxy,27
+Architecture,27
+Critical Thinking,27
+Bachelor's degree,27
+Attention to detail,27
+Cloud Platforms,27
+Delta Lake,27
+Unix,27
+Data Mapping,27
+Data storage,27
+Support,27
+Realtime Data,27
+REST API,26
+ETL/ELT,26
+Agile frameworks,26
+People management,26
+Information Security,25
+Data Engineer,25
+Data privacy,25
+Oozie,25
+XML,25
+Data lakes,25
+Operating Systems,25
+Data Privacy,25
+Data Infrastructure,25
+Mathematics,25
+Operating systems,25
+Cloud Security,24
+Multicloud environments,24
+Problem solving,24
+Data integrity,24
+Data Validation,24
+Orchestration,24
+Configuration,24
+DataOps,24
+Data Factory,24
+Artificial intelligence,24
+Debugging,24
+Flexibility,24
+SAS,23
+ELT,23
+PowerShell,23
+Code Reviews,23
+2+ years of experience in big data technologies,23
+Data Loading,23
+Code reviews,23
+Agile methodologies,23
+Analytical Thinking,23
+Systems administration,23
+Opensource products,23
+Storage,23
+Legal Compliance,22
+Distributed Computing,22
+Ansible,22
+Azure Synapse Analytics,22
+Ruby,22
+Data pipeline frameworks,22
+Data lineage,22
+Data Reporting,22
+SDLC,22
+Database Administration,22
+dbt,22
+Database Development,22
+Data Models,22
+ETL Pipelines,22
+Data migration,22
+Monitoring,22
+Time Management,22
+Email,21
+Public cloud security,21
+Agile Engineering,21
+Data warehouse,21
+Data validation,21
+Data structures,21
+Integration Testing,21
+pySpark,21
+Data warehouses,21
+Kanban,21
+Distributed systems,21
+ETL Processes,21
+Training,21
+Cloudbased data warehousing,21
+Data visualizations,21
+Performance,20
+Reliability,20
+Agile engineering,20
+Compliance,20
+Electrical Engineering,20
+DB2,20
+RDS,20
+Agile Methodology,20
+Analytical problemsolving,20
+Cyber Security,20
+Systems Engineering,19
+Data delivery services,19
+Data ingestion,19
+Data Manipulation,19
+Stored procedures,19
+2+ years of experience with Agile engineering practices,19
+MS SQL Server,19
+Business requirements,19
+Functions,19
+Application Development,19
+Interpersonal skills,19
+Cloudbased data warehousing services,19
+Master Data Management,19
+Data Collection,19
+Test driven methodologies,19
+Hadoop ecosystems,19
+Coding,19
+Data Products,19
+Software engineering principles,19
+Cloud Infrastructure,19
+Endpoint security,18
+Data Management Tools,18
+SQS,18
+Diversity,18
+Teradata,18
+Cloud Technologies,18
+Data profiling,18
+Presentation skills,18
+ETL Tools,18
+Presto,18
+Containerization,18
+Salesforce,18
+Elasticsearch,18
+Data manipulation,18
+ProblemSolving Skills,18
+Computer science,18
+Performance Optimization,18
+Analysis,18
+ETL processes,18
+API,18
+Code review,18
+Customer engagement,18
+Full Stack Systems,18
+Cyber security practices,18
+Agile delivery model,17
+Email security,17
+AI,17
+AWS RDS,17
+Written communication,17
+Data Architectures,17
+Analytical models,17
+Data cleansing,17
+Data extraction,17
+REST,17
+Organizational Skills,17
+Data Lineage,17
+FHIR,17
+AWS Redshift,17
+Code Review,17
+Excel,17
+Data Compliance,17
+Data architecture principles,17
+Application development,17
+Endpoint Security,16
+Bachelor's Degree in Cybersecurity Systems Engineering or Computer Science,16
+Inclusion,16
+Presentation Skills,16
+Data Pipeline,16
+Data models,16
+Dagster,16
+Metadata,16
+Agile methodology,16
+Programming Languages,16
+GIT,16
+Prioritization,16
+IAM,16
+Cloud Services,16
+Microsoft SQL Server,16
+Version control,16
+React,16
+Email Security,15
+Star Schema,15
+SNS,15
+Azure Cloud,15
+Pyspark,15
+Frameworks,15
+Dataflow,15
+Big Query,15
+Written Communication,15
+ETL tools,15
+Team Collaboration,15
+Integration,15
+Data Strategy,15
+Splunk,15
+Continuous integration,15
+Purview,15
+Unit tests,15
+1+ year experience with cloud computing,15
+Spark SQL,15
+CI/CD Pipelines,15
+Bitbucket,15
+Go,15
+Agile Frameworks,15
+CloudFormation,15
+Dashboards,15
+AWS S3,15
+NoSQL Implementation,15
+Symantec Data Loss Prevention (DLP) infrastructure engineering,15
+RealTime Data,15
+Infrastructure as Code,15
+Grafana,15
+People Management,15
+Symantec,15
+URL Filtering,14
+Data loss prevention (DLP),14
+Dimensional Modeling,14
+Risk Management,14
+Verbal communication,14
+Validation,14
+Redis,14
+Data Bricks,14
+Verbal Communication,14
+Platform Engineering,14
+Fivetran,14
+Database Architecture,14
+Management Information Systems,14
+REST APIs,14
+Research,14
+4+ years of experience with NoSQL implementation,14
+BI tools,14
+Data lake,14
+Authentication,14
+Standards,14
+Organizational skills,14
+Team Leadership,14
+Cognos,14
+Spark Streaming,14
+Perl,14
+Microsoft Office,14
+Time management,14
+Big Data technologies,14
+Investigation,14
+GED,14
+Infrastructure,14
+6+ years of experience in application development,14
+IT Delivery projects,13
+Database Management,13
+Master's degree,13
+Numpy,13
+4+ year experience working on realtime data and streaming applications,13
+HTML,13
+OLTP,13
+Business Analysis,13
+Travel,13
+Business Requirements,13
+OMOP,13
+Maintenance,13
+Data modelling,13
+SSAS,13
+4+ years of experience with a public cloud,13
+4+ years of data warehousing experience,13
+High School Diploma,13
+Authorization,13
+Cloud security,13
+Data curation,13
+Information technology,13
+Bachelor's Degree in Computer Science,13
+Metadata Management,13
+AWS Solution Architect,13
+Interfaces,13
+Kibana,13
+Economics,13
+Platform engineering,13
+API Gateway,13
+Realtime data and streaming applications,13
+Shell,12
+Statistical Analysis,12
+StreamProcessing Systems,12
+Database administration,12
+Mentorship,12
+Streaming,12
+Distributed computing,12
+Data infrastructure,12
+OLAP,12
+ETL Development,12
+AWS Cloud,12
+AWS Lambda,12
+TensorFlow,12
+PyTorch,12
+Visual Studio,12
+Cloud computing (AWS Microsoft Azure Google Cloud),12
+AWS Step Functions,12
+Cosmos DB,12
+AutoCAD,12
+Google Cloud Platform (GCP),12
+Equal Opportunity Employer,12
+Continuous Delivery,12
+Statistical analysis,12
+Data classification,12
+Data Marts,12
+Organization,12
+Creativity,12
+Dimensional data modeling,12
+Cloud Architecture,12
+Root Cause Analysis,12
+Continuous Learning,12
+AWS Security,12
+Natural Language Processing,12
+Stream Processing,12
+BI Tools,12
+System Design,12
+Python/Shell scripting,12
+Critical thinking,12
+Github,12
+Optimization,12
+Amazon Web Services,12
+Agile environment,12
+MultiCloud Environments,12
+Data interpretation,12
+Impala,12
+Software development practices,12
+Cyber security,12
+Web Services,11
+Data Movement,11
+Implementation,11
+AngularJS,11
+Distributed data,11
+Source Control,11
+GraphQL,11
+Agile Methodologies,11
+Confluent Kafka,11
+DataStage,11
+Business Acumen,11
+Product Security,11
+Healthcare,11
+Cloud Composer,11
+Javascript,11
+Data Curation,11
+Version Control,11
+System integration,11
+Team leadership,11
+Matillion,11
+Advanced Analytics,11
+Triggers,11
+Azure Functions,11
+Parquet,11
+AWS Services,11
+C/C++,11
+Data reporting,11
+Data compliance,11
+21 CFR Part 11,11
+CDISC,11
+Pipelines,11
+Product Development,11
+AWS Developer,11
+Open Source,11
+Views,11
+Availability,11
+Computer Engineering,11
+Change Management,11
+Cloud technologies,11
+Objectoriented programming,11
+Azure Event Hub,11
+Change management,11
+Data Applications Engineering,11
+Symantec DLP,10
+Endpoint Solutions,10
+Finance,10
+Metadata management,10
+Visualization,10
+Bamboo,10
+Root cause analysis,10
+C,10
+Tensorflow,10
+Apache Hive,10
+Data Vault,10
+Data Platform,10
+Process Improvement,10
+Data Quality Management,10
+Prefect,10
+Cloud services,10
+Database Security,10
+Data collection,10
+Data Acquisition,10
+CI/CD pipelines,10
+Agile teams,10
+Business Analytics,10
+IICS,10
+Microsoft Power BI,10
+ECS,10
+CloudWatch,10
+Maven,10
+Continuous delivery,10
+Fullstack development,10
+Team Management,10
+ElasticSearch,10
+ISO 9001,10
+ISO 27001,10
+Jupyter,10
+Cloud platforms,10
+Protocols,10
+SAP,10
+API Development,10
+Quality Assurance,10
+Data Flows,10
+Coaching,10
+Sqoop,10
+Testdriven development,10
+Data Loss Prevention,10
+Stream processing,10
+SQL Interfaces,10
+Product security,10
+High School Diploma or equivalent,9
+SAFe,9
+Negotiation,9
+Web APIs,9
+Workload Management,9
+Data solutions,9
+Streaming Technologies,9
+Ownership,9
+Cloud Storage,9
+Apache Beam,9
+Data handling,9
+Software Architecture,9
+Collaboration Skills,9
+Initiative,9
+Apache Hadoop,9
+Dimensional modeling,9
+GDPR,9
+Star schema,9
+Data acquisition,9
+System Analysis,9
+CrossFunctional Collaboration,9
+Continuous Improvement,9
+Stakeholder management,9
+Best Practices,9
+Azure Data Lake Storage,9
+Scheduling,9
+Gitlab,9
+Dental,9
+Error handling,9
+Windows Server,9
+Powershell,9
+RESTful APIs,9
+Software design,9
+Cloud infrastructure,9
+Agile/Scrum,9
+Cloud based data warehousing,9
+Planning,9
+Alteryx,9
+CICD,9
+FDA,9
+MS Office,9
+Independent Work,9
+Prototyping,9
+Crossfunctional collaboration,9
+Decision Making,9
+Stakeholder Management,9
+SageMaker,9
+Cloud Data Engineer,9
+Distributed Data,9
+ETL pipelines,9
+ADLS,9
+Data replication,9
+Database development,9
+Schema design,9
+Senior Data Engineer,9
+EKS,9
+Programming languages,9
+Scripts,9
+Information Security Policy,9
+Database,9
+Technical delivery,9
+Cost Optimization,9
+Curiosity,9
+4+ years experience with Distributed data/computing tools,9
+2+ years of people management experience,9
+Agile Delivery,8
+Indexing,8
+Disaster Recovery,8
+Data Preparation,8
+SSMS,8
+Azure Data Bricks,8
+Performance Monitoring,8
+Relational Data Modeling,8
+Observability,8
+Accuracy,8
+CosmosDB,8
+Data Exploration,8
+Release Management,8
+Azure SQL Database,8
+Physics,8
+CSS,8
+AI/ML,8
+Spring Boot,8
+Kimball,8
+Instrumentation,8
+Maintainability,8
+SelfMotivation,8
+Data Solutions,8
+Data quality management,8
+Robotics,8
+Data Platforms,8
+8+ years of experience in application development,8
+TS/SCI Clearance,8
+Netezza,8
+Amazon Web Services (AWS),8
+DevSecOps,8
+Elastic Search,8
+Spotfire,8
+Data optimization,8
+NiFi,8
+CrossFunctional Teams,8
+Financial Services,8
+Flume,8
+Team Player,8
+Software Design,8
+Query optimization,8
+Data Pipeline Frameworks,8
+Distributed Data/Computing Tools,8
+Artifactory,8
+Data Mart,8
+Deep Learning,8
+Data Optimization,8
+.NET,8
+Database architecture,8
+Manufacturing,8
+Equity,8
+Automated testing,8
+Data Design,8
+Google BigQuery,8
+Node.js,8
+ADF,8
+NumPy,8
+Efficiency,8
+AWS Certifications,8
+Technical Delivery,8
+Web services,8
+Software,8
+Governance,8
+Public Policy,8
+Business,8
+OOP,8
+Luigi,8
+NLP,8
+Network Security,8
+Firewalls,8
+Microsoft Certified: Azure Data Engineer Associate,8
+Endpoint solution,7
+Data Standards,7
+Data Quality Checks,7
+Data Consistency,7
+Query Optimization,7
+Active Directory,7
+Workflows,7
+Matplotlib,7
+TeamCity,7
+Azure Analysis Services,7
+Data Services,7
+Data Retrieval,7
+Change Data Capture,7
+Apache Flink,7
+QlikView,7
+SQL Queries,7
+Informatics,7
+Delta Live Tables,7
+Software Development Practices,7
+ETL development,7
+Azure Data Engineer,7
+Azure SQL Data Warehouse,7
+Erwin,7
+Data Mesh,7
+Sagemaker,7
+Civil 3D,7
+Budgeting,7
+ITIL,7
+Data Processing Pipelines,7
+Consulting,7
+Diversity and Inclusion,7
+Data accuracy,7
+Database Engineering,7
+MATLAB,7
+Data streaming,7
+Amazon Redshift,7
+Automic,7
+ODS,7
+Legal compliance,7
+Data retention,7
+Data pipeline,7
+SQL Tuning,7
+FastPaced Environment,7
+SQL databases,7
+Design patterns,7
+Anonymization,7
+Dental Insurance,7
+Retention,7
+Web Development,7
+Leadership skills,7
+API development,7
+ETL/ELT Development,7
+AWS EMR,7
+Data Delivery Services,7
+Data Warehousing (Redshift Snowflake),7
+Data Quality Assurance,7
+Data products,7
+Integration testing,7
+SVN,7
+SharePoint,7
+Yarn,7
+Data Pipeline Development,7
+Education,7
+Mechanical Engineering,7
+NoSQL Implementation (Mongo Cassandra),7
+SPSS,7
+Azure Data Factory (ADF),7
+Data Documentation,7
+Data Access,7
+BI,7
+Product Management,7
+Spring,7
+Data masking,7
+Secure data transfer,7
+Infrastructure as code,7
+Messaging,7
+Blockchain,7
+Data Pipeline Architecture,7
+.Net,7
+Data Wrangling,7
+Data design,7
+Azure Stream Analytics,7
+Software development life cycle,7
+AWS Certification,7
+Macros,7
+Pair programming,7
+Production,7
+Oracle PL/SQL,7
+Technical Leadership,7
+Python Programming,7
+Information security,7
+Agile Software Development,7
+Cyber technical challenges,7
+Cloud computing environments,7
+Automation and Orchestration,7
+Microsoft Fabric/Synapse,7
+Modeling,7
+SAP HANA,7
+Public Cloud Security,7
+IT,7
+Customer Engagement,7
+Technical leadership,7
+Vision,7
+Azure Cosmos DB,7
+Data warehousing experience,7
+Data Streams,7
+7+ years of experience in application development,7
+Interoperability,7
+Safety,7
+Public Cloud,7
+Management,7
+Symantec DLP infrastructure engineering,6
+SQL Server Integration Services,6
+Remote Work,6
+Cloudbased solutions,6
+Supply Chain,6
+Team management,6
+ServiceNow,6
+Unix Shell Scripting,6
+Alerting,6
+Consulting skills,6
+AWS Athena,6
+Coding Standards,6
+Continuous Deployment,6
+Performance optimization,6
+Red Gate Tools,6
+4+ years of experience with UNIX/Linux including basic commands and shell scripting,6
+ETL processing,6
+AWS Expertise,6
+Streaming Services,6
+Java Spring Framework,6
+Pub/Sub,6
+Microsoft Excel,6
+Database Optimization,6
+Data Interpretation,6
+ControlM,6
+Problem Resolution,6
+scikitlearn,6
+NoSQL implementation (Mongo Cassandra),6
+Data warehousing (Redshift Snowflake),6
+Enterprise Data Solutions,6
+Error Handling,6
+Data Warehouse Design,6
+FullStack Development,6
+Leadership Skills,6
+Tuning,6
+Analytical thinking,6
+Machine Learning (ML),6
+Collibra,6
+Atlas,6
+Azure ML,6
+Docker Swarm,6
+Data Centers,6
+Client Communication,6
+Natural language processing,6
+Teamwork skills,6
+Crossfunctional teams,6
+Operations,6
+Distributed data and computing tools,6
+Technologies,6
+Cloud environments,6
+AWS technologies,6
+Avro,6
+MicroStrategy,6
+Workflow Orchestration,6
+Gradle,6
+Normalization,6
+EDW,6
+Conflict resolution,6
+Data Systems,6
+Data Virtualization,6
+Data strategy,6
+MLOps,6
+Data Cleaning,6
+4+ years of experience in application development,6
+API Integration,6
+Data sets,6
+Data Discovery,6
+Informatica PowerCenter,6
+Data Transformations,6
+ARM templates,6
+SparkSQL,6
+Azure data factory,6
+Computer Information Systems,6
+Star Schemas,6
+Datadriven solutions,6
+Vision Insurance,6
+Analytical,6
+English,6
+
+total_count,55314,total_skills,12951

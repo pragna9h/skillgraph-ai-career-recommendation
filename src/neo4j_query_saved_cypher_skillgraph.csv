@@ -1,0 +1,250 @@
+name,description,query,id,parentId,isFolder
+SkillGraph,,,0,,true
+Constraints,,"CREATE CONSTRAINT onet_occ_soc_code IF NOT EXISTS
+FOR (o:OnetOccupation)
+REQUIRE o.soc_code IS UNIQUE;
+
+CREATE CONSTRAINT esco_occ_uri IF NOT EXISTS
+FOR (e:EscoOccupation)
+REQUIRE e.esco_occ_uri IS UNIQUE;
+
+CREATE CONSTRAINT esco_skill_uri IF NOT EXISTS
+FOR (s:EscoSkill)
+REQUIRE s.esco_skill_uri IS UNIQUE;
+
+CREATE CONSTRAINT skill_category_uri IF NOT EXISTS
+FOR (c:SkillCategory)
+REQUIRE c.category_uri IS UNIQUE;",1,0,false
+ONET occupations,,"LOAD CSV WITH HEADERS FROM 'file:///onet_occupations_tech_clean.csv' AS row
+MERGE (o:OnetOccupation {soc_code: row.soc_code})
+SET o.title = row.title;",2,0,false
+ESCO occupations,,"LOAD CSV WITH HEADERS FROM 'file:///esco_occupations_tech_clean.csv' AS row
+MERGE (e:EscoOccupation {esco_occ_uri: row.esco_occ_uri})
+SET
+  e.label = row.label,
+  e.description = row.description,
+  e.isco_group = row.isco_group,
+  e.code = row.code;",3,0,false
+ONET-ESCO crosswalk,,"LOAD CSV WITH HEADERS FROM 'file:///onet_esco_occ_crosswalk_tech_clean.csv' AS row
+MATCH (o:OnetOccupation {soc_code: row.soc_code})
+MATCH (e:EscoOccupation {esco_occ_uri: row.esco_occ_uri})
+MERGE (o)-[r:CROSSWALK_TO]->(e)
+SET r.match_type = row.match_type;",4,0,false
+ESCO skills,,"LOAD CSV WITH HEADERS FROM 'file:///final_esco_skills_tech.csv' AS row
+MERGE (s:EscoSkill {esco_skill_uri: row.esco_skill_uri})
+SET
+  s.label = row.label,
+  s.skill_alternative_label = row.skill_alternative_label,
+  s.skill_type = row.skill_type,
+  s.is_digital = row.is_digital,
+  s.is_transversal = row.is_transversal,
+  s.is_digcomp = row.is_digcomp;",5,0,false
+Skill categories,,"LOAD CSV WITH HEADERS FROM 'file:///final_skill_categories_tech.csv' AS row
+MERGE (c:SkillCategory {category_uri: row.category_uri})
+SET
+  c.name = row.name,
+  c.code = row.code,
+  c.level = toInteger(row.level),
+  c.parent_uri = row.parent_uri,
+  c.parent_name = row.parent_name;",6,0,false
+Category hierarchy,,"LOAD CSV WITH HEADERS FROM 'file:///final_skill_category_edges_tech.csv' AS row
+MATCH (child:SkillCategory {category_uri: row.child_category_uri})
+MATCH (parent:SkillCategory {category_uri: row.parent_category_uri})
+MERGE (child)-[:SUBCATEGORY_OF]->(parent);",7,0,false
+ESCO occ-skill,,"LOAD CSV WITH HEADERS FROM 'file:///final_esco_occ_requires_skill_tech.csv' AS row
+MATCH (e:EscoOccupation {esco_occ_uri: row.esco_occ_uri})
+MATCH (s:EscoSkill {esco_skill_uri: row.esco_skill_uri})
+MERGE (e)-[r:REQUIRES_ESCO_SKILL]->(s)
+SET
+  r.relation_type = row.relation_type,
+  r.skill_type_in_occ = row.skill_type_in_occ;",8,0,false
+Sanity1-counts,,"MATCH (n) RETURN labels(n) AS labels, count(*) AS count;",9,0,false
+Sanity2,,"MATCH (o:OnetOccupation)-[:CROSSWALK_TO]->(e:EscoOccupation)-[:REQUIRES_ESCO_SKILL]->(s:EscoSkill)
+RETURN o.title, e.label, s.label
+LIMIT 25;",10,0,false
+Sanity3-Skillcat_counts,,"MATCH (c:SkillCategory)
+RETURN c.level, count(*) AS count
+ORDER BY c.level;",11,0,false
+lvl0 skill cat link,,"LOAD CSV WITH HEADERS FROM 'file:///final_esco_master_tech.csv' AS row
+WITH row
+WHERE row.skill_uri IS NOT NULL AND trim(row.skill_uri) <> ''
+  AND row.skill_l0_uri IS NOT NULL AND trim(row.skill_l0_uri) <> ''
+MATCH (s:EscoSkill {esco_skill_uri: row.skill_uri})
+MERGE (c0:SkillCategory {category_uri: row.skill_l0_uri})
+SET
+  c0.name = coalesce(c0.name, row.skill_l0_label),
+  c0.code = coalesce(c0.code, row.skill_l0_code),
+  c0.level = 0
+MERGE (s)-[:IN_CATEGORY]->(c0);",12,0,false
+lvl1 skill cat link,,"LOAD CSV WITH HEADERS FROM 'file:///final_esco_master_tech.csv' AS row
+WITH row
+WHERE row.skill_uri IS NOT NULL AND trim(row.skill_uri) <> ''
+  AND row.skill_l1_uri IS NOT NULL AND trim(row.skill_l1_uri) <> ''
+MATCH (s:EscoSkill {esco_skill_uri: row.skill_uri})
+MERGE (c1:SkillCategory {category_uri: row.skill_l1_uri})
+SET
+  c1.name = coalesce(c1.name, row.skill_l1_label),
+  c1.code = coalesce(c1.code, row.skill_l1_code),
+  c1.level = 1
+MERGE (s)-[:IN_CATEGORY]->(c1);",13,0,false
+CustomRole constraints,,"CREATE CONSTRAINT custom_role_id IF NOT EXISTS
+FOR (r:CustomRole)
+REQUIRE r.role_id IS UNIQUE;
+
+CREATE CONSTRAINT role_family_name IF NOT EXISTS
+FOR (f:RoleFamily)
+REQUIRE f.name IS UNIQUE;",14,0,false
+CustomRole Nodes,,"LOAD CSV WITH HEADERS FROM 'file:///custom_roles.csv' AS row
+MERGE (r:CustomRole {role_id: row.role_id})
+SET
+  r.role_title = row.role_title,
+  r.family = row.family,
+  r.seniority = row.seniority,
+  r.description = row.description,
+  r.aliases = row.aliases,
+  r.source = row.source;",15,0,false
+CustomRole RoleFamily,,"LOAD CSV WITH HEADERS FROM 'file:///custom_roles.csv' AS row
+WITH row
+WHERE row.family IS NOT NULL AND trim(row.family) <> ''
+MERGE (f:RoleFamily {name: row.family})
+WITH row, f
+MATCH (r:CustomRole {role_id: row.role_id})
+MERGE (r)-[:IN_FAMILY]->(f);",16,0,false
+CustomRole-ESCO occ mapping,,"LOAD CSV WITH HEADERS FROM 'file:///custom_role_esco_map.csv' AS row
+WITH row
+WHERE row.role_id IS NOT NULL AND trim(row.role_id) <> ''
+  AND row.esco_occ_uri IS NOT NULL AND trim(row.esco_occ_uri) <> ''
+MATCH (r:CustomRole {role_id: row.role_id})
+MATCH (e:EscoOccupation {esco_occ_uri: row.esco_occ_uri})
+MERGE (r)-[m:MAPS_TO]->(e)
+SET
+  m.confidence = toFloat(row.confidence),
+  m.match_type = row.match_type,
+  m.reason = row.reason,
+  m.esco_occ_label = row.esco_occ_label;",17,0,false
+Visualize end-to-end,,"MATCH (r:CustomRole {role_id: $role_id})-[m:MAPS_TO]->(e:EscoOccupation)
+WITH r, e, m
+ORDER BY m.confidence DESC
+LIMIT 1
+MATCH (e)-[rel:REQUIRES_ESCO_SKILL]->(s:EscoSkill)
+OPTIONAL MATCH (s)-[:IN_CATEGORY]->(c:SkillCategory)
+RETURN DISTINCT r, m, e, rel, s, c
+LIMIT 50;",18,0,false
+Setting role to visualize,,:param role_id => 'CR01';,19,0,false
+Loading L2 and L3 skillCat,,"LOAD CSV WITH HEADERS FROM 'file:///final_skill_categories_specific_l2_l3.csv' AS row
+WITH row
+WHERE row.category_uri IS NOT NULL AND trim(row.category_uri) <> ''
+MERGE (c:SkillCategory {category_uri: row.category_uri})
+SET
+  c.name = row.name,
+  c.code = row.code,
+  c.level = toInteger(row.level),
+  c.parent_uri = CASE
+    WHEN row.parent_uri IS NULL OR trim(row.parent_uri) = '' THEN ''
+    ELSE row.parent_uri
+  END,
+  c.parent_name = CASE
+    WHEN row.parent_name IS NULL OR trim(row.parent_name) = '' THEN ''
+    ELSE row.parent_name
+  END;",20,0,false
+"hierarchy edges l3->l2, l2->l1",,"LOAD CSV WITH HEADERS FROM 'file:///final_skill_category_edges_specific_l2_l3.csv' AS row
+WITH row
+WHERE row.child_category_uri IS NOT NULL AND trim(row.child_category_uri) <> ''
+  AND row.parent_category_uri IS NOT NULL AND trim(row.parent_category_uri) <> ''
+MATCH (child:SkillCategory {category_uri: row.child_category_uri})
+MATCH (parent:SkillCategory {category_uri: row.parent_category_uri})
+MERGE (child)-[:SUBCATEGORY_OF]->(parent);",21,0,false
+ESCO skill specific cat linking,,"LOAD CSV WITH HEADERS FROM 'file:///final_esco_skill_to_specific_category_l2_l3.csv' AS row
+WITH row
+WHERE row.esco_skill_uri IS NOT NULL AND trim(row.esco_skill_uri) <> ''
+  AND row.category_uri IS NOT NULL AND trim(row.category_uri) <> ''
+MATCH (s:EscoSkill {esco_skill_uri: row.esco_skill_uri})
+MATCH (c:SkillCategory {category_uri: row.category_uri})
+MERGE (s)-[:IN_CATEGORY]->(c);",22,0,false
+Full neighborhood end-to-end with all skillCat,,"MATCH (r:CustomRole {role_id: $role_id})-[m:MAPS_TO]->(e:EscoOccupation)
+WITH r, m, e
+ORDER BY m.confidence DESC
+LIMIT 1
+MATCH (e)-[rel:REQUIRES_ESCO_SKILL]->(s:EscoSkill)
+WITH r, m, e, rel, s
+ORDER BY CASE rel.relation_type WHEN 'essential' THEN 0 ELSE 1 END, s.label
+LIMIT 15
+OPTIONAL MATCH (s)-[:IN_CATEGORY]->(c:SkillCategory)
+OPTIONAL MATCH (c)-[:SUBCATEGORY_OF]->(parent:SkillCategory)
+RETURN DISTINCT r, m, e, rel, s, c, parent;",23,0,false
+"Constraints for course, cert",,"CREATE CONSTRAINT esco_skill_uri IF NOT EXISTS
+FOR (s:EscoSkill)
+REQUIRE s.esco_skill_uri IS UNIQUE;
+
+CREATE CONSTRAINT course_url IF NOT EXISTS
+FOR (c:Course)
+REQUIRE c.url IS UNIQUE;
+
+CREATE CONSTRAINT cert_url IF NOT EXISTS
+FOR (c:Certification)
+REQUIRE c.url IS UNIQUE;
+
+CREATE CONSTRAINT custom_role_id IF NOT EXISTS
+FOR (r:CustomRole)
+REQUIRE r.role_id IS UNIQUE;",24,0,false
+Course Nodes,,"LOAD CSV WITH HEADERS FROM 'file:///coursera_skill_catalog_flat.csv' AS row
+WITH row
+WHERE row.course_url IS NOT NULL AND trim(row.course_url) <> ''
+  AND row.esco_skill_uri IS NOT NULL AND trim(row.esco_skill_uri) <> ''
+MATCH (s:EscoSkill {esco_skill_uri: row.esco_skill_uri})
+MERGE (c:Course {url: row.course_url})
+SET
+  c.title = row.course_title,
+  c.program_type = row.program_type,
+  c.level = row.level,
+  c.provider = row.provider,
+  c.query = row.query,
+  c.skill_label = row.skill_label,
+  c.result_index = toInteger(row.result_index),
+  c.result_count = toInteger(row.result_count)
+MERGE (c)-[:TEACHES_SKILL]->(s);",25,0,false
+Cert nodes,,"LOAD CSV WITH HEADERS FROM 'file:///google_cloud_certifications_by_role_flat.csv' AS row
+WITH row
+WHERE row.url IS NOT NULL AND trim(row.url) <> ''
+  AND row.custom_role IS NOT NULL AND trim(row.custom_role) <> ''
+MATCH (r:CustomRole {role_title: row.custom_role})
+MERGE (c:Certification {url: row.url})
+SET
+  c.cert_key = row.cert_key,
+  c.name = row.cert_name,
+  c.tier = row.tier,
+  c.page_title = row.page_title,
+  c.meta_description = row.meta_description
+MERGE (r)-[:RELEVANT_FOR]->(c);",26,0,false
+Create rel from metrics csv,,"LOAD CSV WITH HEADERS FROM 'file:///customrole_esco_skill_metrics.csv' AS row
+WITH row
+WHERE row.role_id IS NOT NULL AND row.esco_skill_uri IS NOT NULL
+
+MATCH (r:CustomRole {role_id: row.role_id})
+MATCH (s:EscoSkill {esco_skill_uri: row.esco_skill_uri})
+
+MERGE (r)-[rel:HAS_SKILL_METRIC]->(s)
+
+SET
+  rel.skill_importance = toFloat(row.skill_importance),
+  rel.skill_rank = toInteger(row.skill_rank),
+  rel.is_top20 = row.is_top20,
+  rel.skill_overlap_count = toInteger(row.skill_overlap_count),
+  rel.mapping_confidence = toFloat(row.mapping_confidence),
+  rel.relation_type = row.relation_type;",27,0,false
+Add threshold properties to rel,,"LOAD CSV WITH HEADERS FROM 'file:///customrole_skill_thresholds.csv' AS row
+WITH row
+WHERE row.role_id IS NOT NULL AND row.esco_skill_uri IS NOT NULL
+
+MATCH (r:CustomRole {role_id: row.role_id})
+MATCH (s:EscoSkill {esco_skill_uri: row.esco_skill_uri})
+MATCH (r)-[rel:HAS_SKILL_METRIC]->(s)
+
+SET
+  rel.minimum_required = toInteger(row.minimum_required),
+  rel.favorable_target = toInteger(row.favorable_target),
+  rel.threshold_reason = row.threshold_reason;",28,0,false
+CustomRole->SkillMetrics->ESCOSkill,,"MATCH (r:CustomRole {role_id: ""CR01""})-[rel:HAS_SKILL_METRIC]->(s:EscoSkill)
+RETURN r.role_title, s.label, rel.skill_importance, rel.minimum_required, rel.favorable_target
+ORDER BY rel.skill_rank
+LIMIT 25;",29,0,false

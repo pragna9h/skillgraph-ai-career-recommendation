@@ -1,0 +1,1003 @@
+Skill,Count
+Python,241
+Java,177
+Go,162
+Scala,161
+Observability,148
+NLP,130
+Machine Learning,124
+Speech,116
+Generative AI,113
+Computer Vision,93
+Recommendation Systems,80
+Computer vision,76
+Privacy,76
+API security,76
+Distributed Computing,75
+Cloud Access Control,74
+Cloud access control,73
+API Security,72
+Recommendation systems,72
+Distributed computing,71
+Cache Optimization,70
+Cache optimization,58
+Machine learning,48
+Deep Neural Networks,47
+Foundation Models (FMs),46
+Dataintensive solutions,43
+SDKs,43
+APIs,42
+Deep neural networks,42
+LargeLanguage Models (LLMs),41
+Natural Language Processing,41
+Data Science,38
+AWS,37
+Azure,36
+Guardrails,35
+Privacy Best Practices,34
+Privacy best practices,33
+PyTorch,33
+Scalability,30
+Artificial Intelligence,29
+AI,29
+AI Safety,29
+DataIntensive Solutions,29
+DevOps,28
+Computer Science,28
+TensorFlow,26
+AI safety,25
+Speech Recognition,24
+Cloud Computing,24
+Communication,24
+SQL,22
+API Design,22
+Collaboration,21
+Docker,21
+Foundation Models,21
+Natural Language Processing (NLP),20
+Git,20
+Agile Development,19
+Kubernetes,19
+Deep Learning,19
+Largescale AI products,18
+Training and inferencing APIs,18
+R,17
+Neural Networks,17
+Inferencing APIs,16
+LargeLanguage Models,16
+C++,16
+Microservices,16
+GCP,15
+API Development,15
+Software Development,15
+Software Engineering,15
+Training,15
+Statistics,15
+Training APIs,14
+Realtime applications,14
+Cloud computing,14
+LargeScale AI Products,14
+Artificial intelligence,13
+Natural language processing,13
+LLM,13
+Tensorflow,13
+Teamwork,13
+Deep learning,13
+Leadership,13
+Spark,12
+Hadoop,12
+Training and Inferencing APIs,12
+Governance automation,12
+Cloud Infrastructure,12
+Mathematics,12
+API,12
+Large Language Models (LLMs),11
+Communication Skills,11
+Problem Solving,11
+C/C++,11
+Computer Engineering,11
+Software engineering,11
+Agile development,11
+Big Data,11
+API design,10
+Neural networks,10
+Rapid Iteration,10
+Performance,10
+RealTime Applications,10
+SDK,10
+SDK Development,10
+Finetuning,9
+AI/ML,9
+Data Analytics,9
+Agile,9
+Performance Optimization,9
+Data science,9
+Google Cloud Platform,9
+Problemsolving,9
+Keras,9
+Concepts:,8
+Requirements:,8
+Ease of use,8
+Programming,8
+Data analysis,8
+Analytical skills,8
+Communication skills,8
+Software development,8
+JavaScript,8
+Analytics,8
+Cache optimization techniques,8
+LangChain,8
+Cloud infrastructure,8
+Automation,8
+Reinforcement Learning,8
+Large Language Models,8
+Frameworks:,7
+Languages:,7
+Security,7
+Performance optimization,7
+Cloud Platforms,7
+Natural language processing (NLP),7
+SDK development,7
+Speech recognition,7
+Research,7
+Algorithms,7
+Neural network models,7
+Data Analysis,7
+NoSQL,7
+Problem solving,7
+Neural Network Models,7
+Linux,7
+LLMs,7
+Jenkins,7
+Optimization,7
+Continuous Integration,7
+Production Environments,7
+Product Development,7
+Governance Automation,7
+Physics,7
+Product Engineering,6
+Data Preparation,6
+Pytorch,6
+Electrical Engineering,6
+Jira,6
+scikitlearn,6
+Inferencing,6
+Continuous Delivery,6
+Scikitlearn,6
+Machine Learning (ML),6
+Large Neural Network Models,6
+AI models,6
+Troubleshooting,6
+Sentiment Analysis,6
+NumPy,6
+Pandas,6
+MLOps,6
+TFIDF,6
+Software architecture,6
+Innovation,6
+Predictive Modeling,6
+Generative AI Engineering,6
+Architecture,5
+Torch,5
+Hive,5
+Largescale AI,5
+Software Design,5
+Tableau,5
+Quantization,5
+Sparsity,5
+ProblemSolving,5
+Autonomy,5
+Networking,5
+Debugging,5
+Kubeflow,5
+Engineering,5
+Model Development,5
+Hyperparameter Tuning,5
+Product Experience,5
+Vector databases,5
+Documentation,5
+Ease of Use,5
+Operational Health,5
+Mentoring,5
+Research and Development,5
+Microsoft Azure,5
+Terraform,5
+Cloud platforms,5
+API Monitoring,5
+CICD,5
+Project Management,5
+Compliance,5
+Text Extraction,5
+Semantic Embeddings,5
+Amazon Web Services (AWS),5
+Software:,5
+Data Mining,5
+API development,5
+ScikitLearn,5
+Embeddings,4
+Relus,4
+Kotlin,4
+Equal Opportunity Employer,4
+API access patterns,4
+Operational health,4
+Prompting,4
+Applicationspecific interfaces,4
+Production environments,4
+Product Management,4
+4+ years of experience programming with Python Go Scala or Java,4
+Bachelor's degree,4
+Matplotlib,4
+NodeJS,4
+AI Platforms,4
+Structured Data,4
+Data engineering,4
+Airflow,4
+Snowflake,4
+CUDA,4
+Data pipelines,4
+Analytical Skills,4
+Attention to Detail,4
+Confluence,4
+Oracle,4
+Game Development,4
+Testing,4
+MATLAB,4
+CI/CD,4
+Azure OpenAI,4
+RESTful APIs,4
+Distributed Systems,4
+Model Deployment,4
+Deployment,4
+Rapid iteration,4
+Bachelor's degree in Computer Science or related field,4
+FM,4
+Computer science,4
+Critical Thinking,4
+Big data,4
+Distributed systems,4
+Unreal Engine,4
+Model Evaluation,4
+Databricks,4
+Adaptability,4
+Data Engineering,4
+Unit testing,4
+Model training,4
+Feature Engineering,4
+AI Guardrails,4
+Artificial Intelligence (AI),4
+Performance Evaluation,4
+Ngrams,4
+Bag of Words Representation,4
+Semantic Parsing,4
+Text Completion Models,4
+Containers,4
+C#,4
+Public Cloud Infrastructure,4
+Data Visualization,4
+Unstructured Data,4
+Business intelligence,4
+Langchain,4
+None,3
+Softwares:,3
+GPU,3
+Map/Reduce,3
+Product experience,3
+Infrastructure,3
+AI model training,3
+Collaboration with researchers,3
+Time Management,3
+2+ years of experience building scaling and optimizing training and inferencing APIs for deep neural networks,3
+Cloud,3
+Data Architecture,3
+Agile methodologies,3
+PowerBI,3
+Data visualization,3
+Mentorship,3
+Databases,3
+Data mining,3
+Data modeling,3
+Data governance,3
+KubeFlow,3
+Kafka,3
+AI platforms,3
+AI Systems,3
+Windows Server,3
+AI guardrails,3
+SageMaker,3
+ProblemSolving Skills,3
+MySQL,3
+MongoDB,3
+HTML,3
+.NET,3
+Prompt Engineering,3
+Google Cloud,3
+ML,3
+Ray,3
+API Performance,3
+Simulation,3
+Simulink,3
+Programming languages,3
+Prototyping,3
+Planning,3
+Validation,3
+Public cloud infrastructure,3
+User experience,3
+Product development,3
+Scale,3
+Foundational Capabilities,3
+Product management,3
+Consulting,3
+S3,3
+GenAI,3
+Creativity,3
+Data privacy,3
+Data security,3
+API Access Patterns,3
+Architecting,3
+Probability,3
+Problemsolving skills,3
+AI Model Development,3
+User Experience,3
+Unity,3
+Data warehousing,3
+Platforms,3
+Version Control,3
+Objectoriented programming,3
+Project management,3
+AI software programs,3
+Enterprise AI,3
+Problem resolution,3
+Data Preprocessing,3
+Team management,3
+Vector Databases,3
+Technique Selection,3
+Model Selection,3
+Lead Generative AI Engineer,3
+Orchestration,3
+Software design,3
+Robotics,3
+API Layer,3
+Senior Lead Engineer,3
+Data Pipelines,3
+Lead Engineer,3
+Software Architecture,3
+AI Engineering,3
+Risk Management,3
+Bachelor's degree in Computer Science Computer Engineering or a technical field,3
+Zoom,3
+Dataintensive Solutions,3
+API Deployment,3
+ONNX,3
+Pinecone,3
+FMs,3
+Antibody Discovery,3
+Data integration,2
+Best practices,2
+Design patterns,2
+SystemVerilog,2
+Quality Checks,2
+Design,2
+CPU,2
+Neural Network Processors,2
+Reasonable Accommodations,2
+AI infrastructure,2
+AI safety and guardrails,2
+Deep neural network training,2
+Fastpaced environment,2
+Deadlines,2
+Product experiences,2
+Data Structures,2
+Node.js,2
+UiPath AI Center,2
+Medical,2
+Dental,2
+Vision,2
+PTO,2
+Angular,2
+Model Training,2
+TestDriven Development,2
+Knowledge Sharing,2
+Collaboration Skills,2
+ML models,2
+DynamoDB,2
+ETL,2
+Storm,2
+Generative AI Product Engineering,2
+Operator Fusion,2
+AI products,2
+Large neural network models,2
+Orchestration SDKs,2
+Deploying large neural network models,2
+Deep learning frameworks,2
+Robotic Process Automation,2
+Machine Learning Frameworks,2
+Statistical Modeling,2
+Industry Trends,2
+Test Plans,2
+Test Cases,2
+Test Execution,2
+Test Automation,2
+Interpersonal Skills,2
+Travel,2
+CSS,2
+Web Services,2
+Unreal Engine 5,2
+AI Integration,2
+AI Techniques,2
+Game Design,2
+Systems Design,2
+Signal processing,2
+Tracking,2
+Countermeasures,2
+Image processing,2
+Segmentation,2
+Algorithm development,2
+Clustering,2
+Theano,2
+Signal processing algorithms,2
+Technical roadmap,2
+Azure Machine Learning Studio,2
+Azure Cognitive Search,2
+LLM finetuning,2
+DevOps (CI/CD),2
+Opensource foundation models,2
+Microsoft Certified: Azure Data Scientist Associate,2
+Azure AI Engineer Associate,2
+Paid time off,2
+Technical Leadership,2
+API Implementation,2
+Radar,2
+Signal Processing,2
+Digital Signal Processing,2
+Stochastic Signal Processing,2
+Documentation Skills,2
+AI Development,2
+Infrastructure as Code,2
+MPI,2
+Numpy,2
+Operating Systems,2
+Cloud Technologies,2
+Unix,2
+MLFlow,2
+NPU,2
+Interpersonal skills,2
+High availability,2
+Continuous integration,2
+8+ years of experience in dataintensive solutions,2
+Largescale neural network models,2
+API monitoring,2
+Ambiguity Tolerance,2
+Health Benefits,2
+Prompt engineering,2
+Large language models,2
+LangIndex,2
+SageMaker SDK,2
+psycopg2,2
+AWS ECR,2
+Glue,2
+Lambda,2
+CodeCommit,2
+CodePipeline,2
+Streamlit,2
+Text classification,2
+Embeddings models,2
+Vector embeddings,2
+RAG architecture,2
+Retrieval optimization,2
+Splitting methods,2
+Model evaluation,2
+Vector similarity,2
+Distributed training,2
+Data preprocessing,2
+AWS Solutions Architect,2
+AWS Machine Learning Specialty,2
+Largescale AI platforms,2
+Presentation,2
+API observability,2
+LargeScale Neural Network Models,2
+ApplicationSpecific Interfaces,2
+Building,2
+AI/ML engineering,2
+ML model development,2
+Product design,2
+Largescale AI products or platforms,2
+speech,2
+computer vision,2
+recommendation systems,2
+distributed computing,2
+security,2
+observability,2
+cloud access control,2
+privacy,2
+Deep Generative Artificial Neural Networks,2
+C++/C#,2
+Software Optimization,2
+Strategic Planning,2
+MXNet,2
+Copilot,2
+Version control,2
+Oncology Research,2
+Genomics Data,2
+Clinical Trial Processes,2
+Data Manipulation,2
+End User Requirement Gathering,2
+Design Thinking,2
+Matrix Organization,2
+Vision Coverage,2
+Equal Opportunity,2
+Project completion,2
+Python programming,2
+Finance,2
+Data structures,2
+Code reviews,2
+KernelLevel Programming,2
+Quality assurance,2
+Experimentation,2
+Apache Spark,2
+HuggingFace,2
+Operator fusion,2
+Hardware optimization,2
+Performance analysis,2
+User Experience Design,2
+Largelanguage models (LLMs),2
+Foundation models (FMs),2
+Computational Modeling,2
+Crossteam collaboration,2
+Technical leadership,2
+API Scalability,2
+API Observability,2
+LargeScale AI Platforms,2
+Transformer models,2
+Gen AI,2
+Containerization,2
+Software Integration,2
+Software Maintenance,2
+RF,2
+AI Models,2
+Business Analytics,2
+Kore.AI platform,2
+Natural language understanding (NLU),2
+Agile software development methodologies,2
+PostgreSQL,2
+Algorithm Optimization,2
+Image recognition,2
+Teaching,2
+Disability Insurance,2
+Life Insurance,2
+Coaching,2
+Healthcare,2
+Navigation,2
+Statistical Analysis,2
+Performance Improvement,2
+Merger Integration,2
+Carveouts,2
+Rapid Results,2
+ERP Implementations,2
+Enterprise Architecture,2
+Governance,2
+Model finetuning,2
+Linear Algebra,2
+Software testing,2
+Architect,2
+SCSS,2
+Seaborn,2
+Ability to work independently and as part of a team,2
+Stable Diffusion,2
+Unlimited PTO,2
+Relocation Package,2
+401(k) matching,2
+Memory,2
+Realtime Applications,2
+Machine Learning Platforms,2
+MLflow,2
+Machine learning frameworks,2
+Data Governance,2
+Hardware Optimization,2
+Object Detection,2
+Data Streams,2
+System Integration,2
+MSFT Certified Data Science Associate,2
+Cache Optimization Techniques,2
+Software Engineering Tools,2
+Software Engineering Environments,2
+Software Engineering Frameworks,2
+Software deployment,2
+Rapid prototyping,2
+Initiative,2
+Big Bang,2
+GitLab,2
+Iron Bank,2
+Jupiter Labs,2
+OpenScap,2
+Platform One,2
+Poetry,2
+Pytest,2
+Red Hat Enterprise Linux,2
+Data Warehousing,2
+Largeneural network models,2
+Sales Mentality,2
+Prioritization,2
+Attention to detail,2
+Experience collaborating with researchers and engineers,2
+Technical field,2
+Experience with API security observability cloud access control and privacy best practices,2
+Slack,2
+Google Meet,2
+Profiling,2
+AI systems,2
+AI Safety and Guardrails,2
+HR,2
+Time management,2
+Resultsoriented,2
+Entrepreneurship,2
+Management,2
+Information Extraction,2
+Analytical Processing,2
+Quantitative Insights,2
+Proof of Concept,2
+UserCentric Experience,2
+Reporting,2
+SelfDriven,2
+Independent Thinking,2
+Diversity,2
+Visualization,2
+Continuous Learning,2
+Jupyter Notebook,2
+Fault Tolerance,2
+Master's degree or Ph.D. in a quantitative field,2
+GPU Programming,2
+Computer Architecture,2
+Unstructured Natural Language Data,2
+Text Engineering,2
+Data analytics,2
+Cassandra,2
+Decision making,2
+Large Language Model,2
+Statistical Models,2
+ObjectOriented Programming,2
+Computer engineering,2
+SDLC,2
+5+ years in high tech sales architecture role,2
+Serverless Computing,2
+Microservice architectures,2
+job_skills,1
+Model deployment,1
+Coding standards,1
+Proof of Concept (PoC),1
+Project lifecycle,1
+Deep understanding of AI technologies,1
+Proven track record of delivering successful AI projects,1
+Excellent communication skills,1
+Ability to collaborate effectively with crossfunctional teams,1
+Ability to stay uptodate with the latest advancements in AI,1
+Logic Design,1
+Digital Design,1
+Processor Development,1
+UVM,1
+ASIC Design,1
+Sub7nm Technology,1
+Computer Organization,1
+RTL Design,1
+Schedule Management,1
+Team Leadership,1
+Engineering Management,1
+Mentor Junior Engineers,1
+SOC MicroArchitecture,1
+Memory SubSystem,1
+ASIC Design Flow,1
+Industry Standard Tools,1
+Home Grown Tools,1
+Performancebased Incentive Compensation,1
+Health Financial and Other Benefits,1
+No Agencies,1
+Drugfree Workplace,1
+Technical Support,1
+Typescript,1
+Fullstack Production,1
+Web Development,1
+Product Building,1
+Customer experience enhancement,1
+AI capability building,1
+API access patterns monitoring,1
+Operational health monitoring,1
+AI safety measures implementation,1
+Ambiguous environments,1
+Competing priorities,1
+Large neural network models deployment,1
+Neural Network Deployment,1
+Artificial Intelligence Safety,1
+Data Intensive Solutions,1
+Bachelor's Degree in Computer Science Computer Engineering or a technical field,1
+6+ years of experience designing and building dataintensive solutions using distributed computing and cache optimization techniques,1
+Familiarity with building largescale AI products or platforms for NLP speech computer vision or recommendation systems serving millions of users.,1
+Ability to move fast in an environment with ambiguity at times and with competing priorities and deadlines.,1
+Experience at tech and productdriven companies/startups preferred.,1
+Ability to iterate rapidly with researchers and engineers to improve a product experience while building the foundational capabilities.,1
+Familiarity with deploying large neural network models in demanding production environments.,1
+Have experience with API security observability cloud access control and privacy best practices.,1
+API orchestration SDKs,1
+Mobile,1
+AI/Machine Learning,1
+RPA,1
+AI Center troubleshooting,1
+Embedded artificial intelligence,1
+Document processing,1
+Data cleansing,1
+UiPath RPA Developer Certification,1
+UiPath AI Center Experience,1
+Automation engineering roles,1
+US Citizenship or Permanent Residency,1
+Basic Life Insurance,1
+Health Saving Account,1
+401K,1
+Paid Holidays,1
+Online Training,1
+Team collaboration,1
+Deployment lifecycle,1
+Azure Cognitive Services,1
+Microsoft BOT Framework,1
+Cosmos Database,1
+AI Technologies,1
+Fine Tuning,1
+Software Development Methodologies,1
+Ethical Guidelines,1
+Legal Compliance,1
+10+ years Application Development Experience,1
+4+ years AI Technologies Experience,1
+Strong Communication Skills,1
+Document Extraction,1
+Financial Markets,1
+Strategic Thinking,1
+Frameworks: Scala Python Go Java,1
+Languages: Python Go Scala Java,1
+Skills: API development SDK development Distributed computing Cache optimization NLP Speech processing Computer vision Recommendation systems,1
+Concepts: LargeLanguage Models (LLMs) Foundation Models (FMs),1
+Requirements: Bachelor's degree in Computer Science Computer Engineering or technical field 8+ years of experience designing and building dataintensive solutions 4+ years of experience programming with Python Go Scala or Java 3+ years of experience building scaling and optimizing training and inferencing APIs for deep neural networks,1
+ML Data OPs,1
+Data cleaning,1
+Data normalization,1
+Data platforms,1
+Data frameworks,1
+Data compliance,1
+bash,1
+Helm,1
+pySpark,1
+SparkStreaming,1
+Legal compliance,1
+Data classification,1
+Data retention,1
+Objectoriented development,1
+Software performance,1
+Algorithm and data structures,1
+Common design patterns,1
+Animation,1
+Level design,1
+Terrain traversal,1
+Gameplay systems,1
+Console/PC game development,1
+Middleware,1
+Hardware/Software Systems,1
+OpenSource Contribution,1
+Publication,1
+Performance Bottlenecks,1
+Stock Ownership,1
+Employee Stock Purchase Plan,1
+Deep Neural networks,1
+Prompting tasks,1
+Demanding production environments,1
+Diffusionbased image generation,1
+Hugging Face diffusers,1
+Engineering experience,1
+Eventdriven systems,1
+APIbased systems,1
+Cloudbased deployment,1
+Testing processes,1
+AI model performance tuning,1
+AI system performance tuning,1
+Optimisation,1
+Team player,1
+AI space,1
+Machine learning algorithms,1
+AI conferences,1
+NeurIPS,1
+ICML,1
+GO,1
+MatLab,1
+Deep Learning Toolsets,1
+CI/CD Pipelines,1
+Machine Learning Modeling,1
+Data APIs,1
+Risk Assessment,1
+Technical Writing,1
+Advanced Education,1
+Research Skills,1
+Organizational Skills,1
+Critical Thinking Skills,1
+Ability to Work independently,1
+Ability to Work in a Team,1
+M.S./Ph.D. in Machine Learning AI Computer Science or a related technical field,1
+2 years of industry experience,1
+Experience working with recommendation systems,1
+Outstanding interpersonal communication and organizational skills,1
+Experience implementing AI systems at scale,1
+Ability to relocate to New York NY or Pittsburgh PA,1
+Systems Testing,1
+Test Reporting,1
+Flight Test,1
+Software Safety,1
+Gitlab,1
+Virtual Machines,1
+RTOS,1
+Embedded Linux,1
+SysML,1
+Learning Agility,1
+AI software,1
+PHP,1
+Joomla,1
+Drupal,1
+Wikis,1
+osCommerce,1
+AJAX,1
+JQuery,1
+Version Control Tools,1
+ThirdParty APIs,1
+BS/MS in Computer Science or Engineering,1
+Unreal Engine 4,1
+Multiplayer,1
+AI Architectures,1
+AI Algorithms,1
+State Machines,1
+Behaviour Trees,1
+AI Optimization,1
+Memory Usage,1
+AI Requirements Elicitation,1
+Player Engagement,1
+FirstPerson Shooter Games,1
+Navigation Techniques,1
+Animation Systems Integration,1
+System design,1
+Operational optimization,1
+Detection,1
+Discrimination,1
+Signatures,1
+Electronic Warfare,1
+Antennas,1
+Recognition,1
+Denoising,1
+Process control systems,1
+Situational awareness,1
+Cyber security,1
+Anomaly detection,1
+GPU acceleration,1
+Global optimization,1
+Local optimization,1
+Complex data,1
+Fused data,1
+Adversarial ML,1
+Network architecture,1
+Computability,1
+Applied Mathematics,1
+SVM/SVR,1
+Fuzzy systems,1
+Tree ensemble methods,1
+Bayesian,1
+Bagging,1
+Boosting,1
+Supervised learning,1
+Unsupervised learning,1
+Autocorrelation,1
+Deep learning methods,1
+DNNs,1
+CNNs,1
+RNNs,1
+LSTMs,1
+Caffe,1
+Neon,1
+GMMs,1
+HMMs,1
+Defense industry,1
+Radar system analysis,1
+RF Electronics,1
+Antenna design,1
+Analysis,1
+Toolbuilding,1
+Target acquisition,1
+Advanced modeling,1
+RADAR principles,1
+RCS analysis,1
+Battle manager interfaces,1
+GMD/BMDS systems,1
+BMDS radar systems,1
+Radar simulation,1
+Data strategies,1
+Program processes,1
+Risk management,1
+Integration,1
+Chaining technologies,1
+Semantic Kernel,1
+Retrieval Augmented Generation (RAG) architectures,1
+Foundational model toolsets,1
+Translating technical concepts,1
+Accountability,1
+Bachelor's degree in Computer Science or Data Science,1
+Practical experience in data science or machine learning,1
+Implementing AI solutions,1
+Regular fulltime and parttime employment,1
+Health dental and vision plans,1
+Wellbeing program,1
+Health care spending account,1
+Wellness spending accounts,1
+Group registered retirement savings plan,1
+Employee stock purchase program,1
+Group taxfree savings account,1
+Life and accidental death & dismemberment (AD&D) insurance,1
+Shortterm/longterm disability plans,1
+Emergency travel benefits,1
+Tuition reimbursement,1
+Professional membership fee coverage,1
+MBA,1
+Conversational Applications,1
+AI Accelerators,1
+Cloud AI,1
+Consumer finance,1
+Crossfunctional communication,1
+Detection algorithms,1
+Estimation algorithms,1
+Classification algorithms,1
+Advanced applications,1
+Radio,1
+Electronic warfare,1
+RF technology,1
+Waveforms,1
+Concept trade studies,1
+Performance trade studies,1
+Streaming data applications,1
+Prototype development,1
+Sensor modeling,1
+Digital signal processing,1
+Probability theory,1
+Stochastic signal processing,1
+RF Systems,1
+Radar Systems,1
+Radio Systems,1
+EW Architectures,1
+Probability Theory,1
+Data Streaming,1
+HighFidelity Simulations,1
+Team Environment,1
+Creative Problem Solving,1
+Algorithmic Development,1
+Briefing Skills,1
+Coursework or Experience,1
+3D Maths,1
+Iterative Implementation,1
+Roadmaps,1
+BugFixing,1
+AI Features,1
+Game Interactive Enterprise Systems,1
+Virtual Reality,1
+AR,1
+XR,1
+Workday,1
+Peoplesoft,1
+eCommerce,1
+AI Programming,1
+Game AI,1
+AAA Games,1
+Gameplay Programming,1
+BleedingEdge Game AI Technology,1
+Technical Skills,1
+Game AI Concepts,1
+London Experience,1
+AI Software Engineering,1
+Data Structures and Algorithms,1
+GPU Architectures and CUDA,1
+CuGraph,1
+CuData,1
+CuML,1
+GO Systems Programming,1
+Java Programming,1
+Random Forest,1
+XG Boost,1
+
+total_count,7828,total_skills,2564

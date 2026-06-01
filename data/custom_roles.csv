@@ -1,0 +1,16 @@
+role_id,role_title,family,seniority,description,aliases,source
+CR01,Software Engineer,Software Engineering,Entry/Mid,"General software engineering role focused on building and maintaining applications, services, and systems.",software developer; programmer; application engineer,manual-curated
+CR02,Backend Engineer,Software Engineering,Entry/Mid,"Server-side engineer focused on APIs, services, databases, and business logic.",server-side engineer; backend developer,manual-curated
+CR03,Frontend Engineer,Software Engineering,Entry/Mid,"Engineer focused on client-side applications, user interfaces, and browser experiences.",frontend developer; UI engineer; client-side engineer,manual-curated
+CR04,Full-Stack Engineer,Software Engineering,Entry/Mid,Engineer who works across frontend and backend layers of an application stack.,full stack developer; full-stack developer,manual-curated
+CR05,Platform Engineer,Infrastructure and Platform,Mid,"Engineer who builds internal developer platforms, tooling, deployment systems, and shared infrastructure.",platform developer; developer platform engineer,manual-curated
+CR06,DevOps Engineer,Infrastructure and Platform,Mid,"Engineer focused on build, release, deployment, automation, and infrastructure operations.",release engineer; build engineer; infrastructure engineer,manual-curated
+CR07,Site Reliability Engineer,Infrastructure and Platform,Mid/Senior,"Engineer responsible for reliability, observability, incident response, and service performance.",SRE; reliability engineer,manual-curated
+CR08,Cloud Engineer,Infrastructure and Platform,Mid,"Engineer focused on cloud infrastructure, deployment, networking, and platform services.",cloud infrastructure engineer; cloud platform engineer,manual-curated
+CR09,Security Engineer,Security,Mid,"Engineer focused on application, platform, and infrastructure security controls.",cybersecurity engineer; security analyst; application security engineer,manual-curated
+CR10,QA Automation Engineer,Quality Engineering,Entry/Mid,"Engineer who designs automated tests, test frameworks, and release validation pipelines.",test automation engineer; SDET; software test engineer,manual-curated
+CR11,Machine Learning Engineer,AI and ML,Mid,"Engineer who builds, deploys, and operationalizes machine learning models and pipelines.",ML engineer; applied machine learning engineer,manual-curated
+CR12,AI Engineer,AI and ML,Mid,"Engineer who builds AI systems using model integration, prompting, evaluation, and application logic.",artificial intelligence engineer; genAI engineer; LLM engineer,manual-curated
+CR13,MLOps Engineer,AI and ML,Mid,"Engineer who connects ML models to deployment, monitoring, and production operations.",ML platform engineer; model operations engineer,manual-curated
+CR14,Data Engineer,Data,Mid,"Engineer who builds data pipelines, warehouses, ingestion systems, and analytics infrastructure.",data platform engineer; ETL engineer; analytics engineer,manual-curated
+CR15,Data Scientist,Data,Mid,"Analyst/Scientist role focused on experimentation, modeling, statistical analysis, and insights.",machine learning scientist; applied data scientist,manual-curated

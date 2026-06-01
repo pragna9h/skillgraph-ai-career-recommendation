@@ -1,0 +1,45 @@
+role_id,esco_occ_label,esco_occ_uri,confidence,match_type,reason
+CR01,software developer,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,0.97,exactMatch,Direct software-engineering equivalent with strong title and skill overlap.
+CR01,software architect,http://data.europa.eu/esco/occupation/d0aa0792-4345-474b-9365-686cf4869d2e,0.78,closeMatch,"Adjacency through architecture, design, and system-level responsibilities."
+CR02,software developer,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,0.88,closeMatch,Strong backend overlap through service and API development.
+CR02,ICT system developer,http://data.europa.eu/esco/occupation/a7c1d23d-aeca-4bee-9a08-5993ed98b135,0.83,closeMatch,Server-side systems and implementation overlap.
+CR02,software architect,http://data.europa.eu/esco/occupation/d0aa0792-4345-474b-9365-686cf4869d2e,0.72,broadMatch,Architecture is adjacent but not primary.
+CR03,user interface developer,http://data.europa.eu/esco/occupation/866c7813-2c03-47d7-9bdc-192cfbace57c,0.96,exactMatch,Direct frontend/UI equivalent.
+CR03,web developer,http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d,0.9,closeMatch,Strong overlap with browser-based UI engineering.
+CR03,ICT application developer,http://data.europa.eu/esco/occupation/bd272aee-adc9-4a06-a15c-a73b4b4a46a7,0.74,broadMatch,"Application development overlap, but less UI-specific."
+CR04,software developer,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,0.93,exactMatch,Full-stack work still centers on core software development.
+CR04,web developer,http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d,0.91,closeMatch,Strong overlap for full-stack web applications.
+CR04,ICT application developer,http://data.europa.eu/esco/occupation/bd272aee-adc9-4a06-a15c-a73b4b4a46a7,0.79,closeMatch,Broad application development overlap.
+CR05,ICT system developer,http://data.europa.eu/esco/occupation/a7c1d23d-aeca-4bee-9a08-5993ed98b135,0.89,closeMatch,Platform engineering maps closely to internal systems and tooling.
+CR05,ICT system administrator,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,0.82,closeMatch,Operational platform responsibilities overlap.
+CR05,ICT system architect,http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae,0.76,broadMatch,"Architecture overlap, but role is broader and more infra-oriented."
+CR06,ICT system administrator,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,0.94,exactMatch,Strong operational and deployment alignment.
+CR06,ICT operations manager,http://data.europa.eu/esco/occupation/f0ca39a8-1e30-487c-95f9-ef2d5e734adc,0.8,closeMatch,Operational ownership overlap.
+CR06,ICT system developer,http://data.europa.eu/esco/occupation/a7c1d23d-aeca-4bee-9a08-5993ed98b135,0.77,broadMatch,DevOps includes automation and tooling development.
+CR07,ICT system administrator,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,0.91,closeMatch,"Strong reliability, monitoring, and service operations overlap."
+CR07,ICT operations manager,http://data.europa.eu/esco/occupation/f0ca39a8-1e30-487c-95f9-ef2d5e734adc,0.86,closeMatch,Operational responsibility overlap.
+CR07,ICT network engineer,http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d,0.73,broadMatch,Reliability can involve network and infrastructure concerns.
+CR08,cloud engineer,http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e,0.97,exactMatch,Direct title equivalence.
+CR08,ICT system administrator,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,0.84,closeMatch,Cloud infrastructure shares deployment/ops responsibilities.
+CR08,ICT network engineer,http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d,0.77,closeMatch,Network/cloud infrastructure overlap.
+CR09,ICT security administrator,http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7,0.93,exactMatch,Direct security-administration equivalence.
+CR09,ICT security technician,http://data.europa.eu/esco/occupation/a44a1dc5-be08-4840-8bd5-770c4ac1ca6d,0.88,closeMatch,Hands-on security work overlap.
+CR09,cybersecurity risk manager,http://data.europa.eu/esco/occupation/7754d570-9519-48c2-b1c9-8e165f8bca0f,0.79,closeMatch,Security governance/risk responsibilities overlap.
+CR10,ICT test analyst,http://data.europa.eu/esco/occupation/0ab5c12c-c1c1-4772-8345-aa287d0e391d,0.95,exactMatch,Direct QA/test-analysis equivalent.
+CR10,ICT integration tester,http://data.europa.eu/esco/occupation/731f38f1-b08f-4dd5-a25e-f8627c038273,0.9,closeMatch,Automated and integration testing overlap.
+CR10,ICT system tester,http://data.europa.eu/esco/occupation/52d5edc9-7902-4cd3-8b06-6bd77c98d440,0.86,closeMatch,Strong validation and QA overlap.
+CR11,computer scientist,http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e,0.86,closeMatch,Best available scientific/ML-adjacent ESCO anchor.
+CR11,software developer,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,0.81,closeMatch,Implementation overlap for ML model deployment and tooling.
+CR11,ICT research consultant,http://data.europa.eu/esco/occupation/6e92d4b5-3167-4166-802f-da7753951a31,0.74,broadMatch,Research-oriented analytical work overlap.
+CR12,computer scientist,http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e,0.84,closeMatch,Strong AI/research computation overlap.
+CR12,software developer,http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1,0.8,closeMatch,AI system implementation overlap.
+CR12,ICT research consultant,http://data.europa.eu/esco/occupation/6e92d4b5-3167-4166-802f-da7753951a31,0.73,broadMatch,Research and experimentation overlap.
+CR13,ICT system developer,http://data.europa.eu/esco/occupation/a7c1d23d-aeca-4bee-9a08-5993ed98b135,0.9,closeMatch,MLOps includes platform and automation engineering.
+CR13,ICT system administrator,http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300,0.86,closeMatch,Deployment and operational management overlap.
+CR13,cloud engineer,http://data.europa.eu/esco/occupation/349ee6f6-c295-4c38-9b98-48765b55280e,0.83,closeMatch,Production ML commonly rides on cloud infrastructure.
+CR14,data warehouse designer,http://data.europa.eu/esco/occupation/1562c7a3-c7d9-419d-b9b6-db26610bcf84,0.97,exactMatch,Direct data platform/warehouse alignment.
+CR14,database developer,http://data.europa.eu/esco/occupation/b11e1742-5e28-4270-b081-b0193d85ee7d,0.92,closeMatch,Strong data pipeline and storage overlap.
+CR14,database designer,http://data.europa.eu/esco/occupation/8d9ec84d-cf2d-4179-87bc-335cda54a427,0.87,closeMatch,Schema and data modeling overlap.
+CR15,computer scientist,http://data.europa.eu/esco/occupation/e3229e40-f571-4b26-baca-29edc8fe313e,0.82,closeMatch,Best available analytical/scientific anchor in current ESCO subset.
+CR15,ICT research consultant,http://data.europa.eu/esco/occupation/6e92d4b5-3167-4166-802f-da7753951a31,0.78,closeMatch,Experimentation and analysis overlap.
+CR15,software analyst,http://data.europa.eu/esco/occupation/04ba4d6c-957d-417f-bf63-5b9e015a9f86,0.72,broadMatch,Analytical and modeling overlap.
