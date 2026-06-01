@@ -1,4 +1,4 @@
-# SkillGraph: AI-Powered Career Recommendation Engine
+# SkillGraph: A Knowledge Graph for Career Intelligence
 
 SkillGraph is a knowledge graph-based career recommendation system that helps users evaluate their readiness for a target role, identify skill gaps, and discover personalized learning recommendations.
 
