@@ -74,7 +74,7 @@ The combination of these sources enables SkillGraph to generate recommendations 
 ## System Architecture
 
 <p align="center">
-  <img src="screenshots/architecture.png" width="900">
+  <img src="screenshots/architecture.png" width="590">
 </p>
 
 ### Workflow
