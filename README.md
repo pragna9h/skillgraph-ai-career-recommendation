@@ -4,6 +4,13 @@ SkillGraph is a knowledge graph-based career recommendation system that helps us
 
 Built using **Neo4j**, **ESCO skill taxonomy**, and **Streamlit**, the system combines graph reasoning with importance-weighted scoring to provide explainable career guidance.
 
+## Highlights
+
+- Built a Neo4j Knowledge Graph containing occupations, skills, courses, certifications, and career pathways.
+- Developed an importance-weighted skill scoring engine using LinkedIn demand signals and ESCO skill relationships.
+- Implemented explainable skill-gap analysis and role readiness scoring.
+- Designed personalized course and certification recommendation workflows.
+- Created a Streamlit-based interactive career intelligence application.
 
 ## Motivation
 
@@ -66,7 +73,9 @@ The combination of these sources enables SkillGraph to generate recommendations 
 
 ## System Architecture
 
-![Architecture Diagram](screenshots/architecture.png)
+<p align="center">
+  <img src="screenshots/architecture.png" width="900">
+</p>
 
 ### Workflow
 
@@ -268,9 +277,20 @@ SkillGraph generates:
 - Learning Recommendations
 - Certification Recommendations
 
+#### Match Score
+
 ![Dashboard](screenshots/step3_dashboard_1.png)
+
+#### Skill Analysis
+
 ![Dashboard](screenshots/step3_dashboard_2.png)
+
+#### Learning Recommendations
+
 ![Dashboard](screenshots/step3_dashboard_3.png)
+
+#### Certification Recommendations
+
 ![Dashboard](screenshots/step3_dashboard_4.png)
 
 ## Neo4j Knowledge Graph
@@ -281,10 +301,10 @@ The graph stores relationships between roles, skills, courses, and certification
 ![Knowledge Graph](screenshots/graph_view_2.png)
 
 
-## Repository Strcuture
+## Repository Structure
 
 ```text
-skillgraph-ai-career-recommendation/
+skillgraph-career-recommendation/
 
 ├── data/
 ├── notebooks/
@@ -353,6 +373,14 @@ NEO4J_PASSWORD="your-password"
 ```bash
 streamlit run src/skillgraph_ui.py
 ```
+
+## Project Metrics
+
+- 15 curated technology roles
+- 11,000+ graph relationships
+- Multiple integrated data sources (ESCO, O*NET, LinkedIn, Coursera, Google Cloud)
+- Importance-weighted skill ranking framework
+- Explainable recommendation engine
 
 ## Results
 - Built a Neo4j-based career intelligence platform using knowledge graphs.
