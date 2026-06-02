@@ -268,13 +268,17 @@ SkillGraph generates:
 - Learning Recommendations
 - Certification Recommendations
 
-![Dashboard](screenshots/step3_dashboard.png)
+![Dashboard](screenshots/step3_dashboard_1.png)
+![Dashboard](screenshots/step3_dashboard_2.png)
+![Dashboard](screenshots/step3_dashboard_3.png)
+![Dashboard](screenshots/step3_dashboard_4.png)
 
 ## Neo4j Knowledge Graph
 
 The graph stores relationships between roles, skills, courses, and certifications, enabling explainable recommendation generation through graph traversal.
 
-![Knowledge Graph](screenshots/graph_view.png)
+![Knowledge Graph](screenshots/graph_view_1.png)
+![Knowledge Graph](screenshots/graph_view_2.png)
 
 
 ## Repository Strcuture
