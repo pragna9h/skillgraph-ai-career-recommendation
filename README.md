@@ -322,35 +322,35 @@ skillgraph-ai-career-recommendation/
 
 
 ## How to Run
-### 1. Install Dependencies
 
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/pragna9h/skillgraph-career-recommendation.git
+cd skillgraph-career-recommendation
 ```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Configure Neo4j Credentials
+### 3. Configure Neo4j Credentials
 
 Create:
 
-```
-.streamlit/secrets.toml
+`.streamlit/secrets.toml`
+
+```toml
+NEO4J_URI="bolt://localhost:7687"
+NEO4J_USER="neo4j"
+NEO4J_PASSWORD="your-password"
 ```
 
-```
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "your-password"
-```
+### 4. Launch the Application
 
-### 3. Build and Load the Knowledge Graph
-
-```
-python src/build_esco_master.py
-```
-
-### 4. Launch the application
-
-```
+```bash
 streamlit run src/skillgraph_ui.py
 ```
 
