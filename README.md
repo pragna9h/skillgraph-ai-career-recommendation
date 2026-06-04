@@ -342,13 +342,26 @@ skillgraph-career-recommendation/
 
 
 ## How to Run
+SkillGraph is designed as a fully local application. The knowledge graph is generated from the project datasets and loaded into a local Neo4j instance before launching the Streamlit interface.
 
-### 1. Clone Repository
+### Prerequisites
+
+Before running SkillGraph, ensure you have:
+
+- Python 3.10+
+- Neo4j Desktop (or another Neo4j instance)
+- Git
+
+---
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/pragna9h/skillgraph-career-recommendation.git
 cd skillgraph-career-recommendation
 ```
+
+---
 
 ### 2. Install Dependencies
 
@@ -356,23 +369,74 @@ cd skillgraph-career-recommendation
 pip install -r requirements.txt
 ```
 
-### 3. Configure Neo4j Credentials
+---
+
+### 3. Start Neo4j
+
+Launch Neo4j Desktop and start a Neo4j database instance.
+
+By default, SkillGraph expects:
+
+```text
+URI: bolt://localhost:7687
+User: neo4j
+```
+
+---
+
+### 4. Configure Neo4j Credentials
 
 Create:
 
-`.streamlit/secrets.toml`
-
-```toml
-NEO4J_URI="bolt://localhost:7687"
-NEO4J_USER="neo4j"
-NEO4J_PASSWORD="your-password"
+```text
+.streamlit/secrets.toml
 ```
 
-### 4. Launch the Application
+Add your Neo4j credentials:
+
+```toml
+NEO4J_URI = "bolt://localhost:7687"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "your-password"
+```
+
+---
+
+### 5. Build and Load the Knowledge Graph
+
+```bash
+python src/build_esco_master.py
+```
+
+This step processes the datasets included in the `data/` directory and populates the Neo4j Knowledge Graph using the Cypher mappings defined in:
+
+```text
+src/neo4j_query_saved_cypher_skillgraph.csv
+```
+
+The resulting graph contains: Technology Roles, ESCO Occupations, ESCO Skills, Skill Categories, Courses, Certifications, Skill Importance Metrics, Recommendation Relationships
+
+---
+
+### 6. Launch the Application
 
 ```bash
 streamlit run src/skillgraph_ui.py
 ```
+
+---
+
+### 7. Use SkillGraph
+
+Once the application launches:
+
+1. Select a target technology role.
+2. Assess your proficiency across role-specific skills.
+3. View your match score and skill-gap analysis.
+4. Explore recommended learning resources.
+5. Review role-specific certification recommendations.
+
+
 
 ## Project Metrics
 
